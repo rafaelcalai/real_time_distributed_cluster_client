@@ -1,0 +1,26 @@
+{
+    "task_a": {
+        "deadline": 10,
+        "ecxecution_time": 2,
+        "period": 15,
+        "repeat": 5
+    },
+    "task_b": {
+        "deadline": 10,
+        "ecxecution_time": 2,
+        "period": 15,
+        "repeat": 5
+    },
+    "task_c": {
+        "deadline": 10,
+        "ecxecution_time": 2,
+        "period": 15,
+        "repeat": 5
+    },
+    "task_d": {
+        "deadline": 10,
+        "ecxecution_time": 2,
+        "period": 15,
+        "repeat": 5
+    }
+}
