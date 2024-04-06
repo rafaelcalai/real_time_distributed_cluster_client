@@ -1,0 +1,30 @@
+{
+    "task_a": {
+        "deadline": 10,
+        "ecxecution_time": 2,
+        "period": 15,
+        "repeat": 5,
+        "priority":"high"
+    },
+    "task_b": {
+        "deadline": 10,
+        "ecxecution_time": 2,
+        "period": 15,
+        "repeat": 5,
+        "priority":"high"
+    },
+    "task_c": {
+        "deadline": 10,
+        "ecxecution_time": 2,
+        "period": 15,
+        "repeat": 5,
+        "priority":"medium"
+    },
+    "task_d": {
+        "deadline": 10,
+        "ecxecution_time": 2,
+        "period": 15,
+        "repeat": 5,
+        "priority":"low"
+    }
+}
