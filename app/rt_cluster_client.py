@@ -9,14 +9,14 @@ logging.basicConfig(
     level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-HOST = "127.0.0.1"
+HOST = "192.168.1.111"
 PORT = 8765
 
+
 def send_task_request(task, count, repeat, task_data):
-    logging.info(
-        f"{task} request {count+1}/{repeat}"
-    )
-    start=time.time()
+    logging.info(f"{task} request {count+1}/{repeat}")
+    task_data["task_name"] = f"{task}_{count+1}"
+    start = time.time()
     client_socket = socket.socket()
     client_socket.connect((HOST, PORT))
 
@@ -24,11 +24,13 @@ def send_task_request(task, count, repeat, task_data):
 
     client_socket.send(message.encode())
     client_socket.close()
-    end=time.time()
-    
-    elapsed_time = end-start
-    logging.info(f"Elapsed time for {task} request {count+1}/{repeat} was {elapsed_time:.4f}s for {task_data['deadline']}s deadline")
-    
+    end = time.time()
+
+    elapsed_time = end - start
+    logging.info(
+        f"Elapsed time for {task} request {count+1}/{repeat} was {elapsed_time:.4f}s for {task_data['deadline']}s deadline"
+    )
+
 
 def task_connecction(thread, task, task_data):
     logging.info(
@@ -36,8 +38,12 @@ def task_connecction(thread, task, task_data):
     )
     repeat = task_data["repeat"]
     try:
-        for count in range(repeat):     
-            thread = threading.Timer(task_data["period"] * count, send_task_request, (task, count, repeat, task_data))
+        for count in range(repeat):
+            thread = threading.Timer(
+                task_data["period"] * count,
+                send_task_request,
+                (task, count, repeat, task_data),
+            )
             thread.start()
 
     except Exception as e:
@@ -51,7 +57,9 @@ def main(file):
         task_set = json.loads(f.read())
 
     for idx, task in enumerate(task_set):
-        thread = threading.Thread(target=task_connecction, args=(idx, task, task_set[task]))
+        thread = threading.Thread(
+            target=task_connecction, args=(idx, task, task_set[task])
+        )
         thread.start()
 
 
