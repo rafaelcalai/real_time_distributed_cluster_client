@@ -23,12 +23,19 @@ def send_task_request(task, count, repeat, task_data):
     message = json.dumps(task_data)
 
     client_socket.send(message.encode())
+
+    response = ""
+    while True:
+        data = client_socket.recv(1024)
+        if data:
+            response = data.decode("utf-8")
+            break
+
     client_socket.close()
     end = time.time()
-
     elapsed_time = end - start
     logging.info(
-        f"Elapsed time for {task} request {count+1}/{repeat} was {elapsed_time:.4f}s for {task_data['deadline']}s deadline"
+        f"Elapsed time for {task} request {count+1}/{repeat} was {elapsed_time:.4f}s for {task_data['deadline']}s deadline with response {response}"
     )
 
 
@@ -51,7 +58,7 @@ def task_connecction(thread, task, task_data):
 
 
 def main(file):
-    logging.info("\nReal Time Cluster Client started!\n")
+    logging.info("Real Time Cluster Client started!")
 
     with open(file, "r", encoding="utf-8") as f:
         task_set = json.loads(f.read())
