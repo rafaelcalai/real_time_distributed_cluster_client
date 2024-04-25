@@ -28,7 +28,7 @@
         "priority":"low"
     },
     "task_e": {
-        "deadline": 5,
+        "deadline": 10,
         "ecxecution_time": 3,
         "period": 7,
         "repeat": 5,
@@ -36,7 +36,7 @@
     },
     "task_f": {
         "deadline": 8,
-        "ecxecution_time": 3,
+        "ecxecution_time": 8,
         "period": 8,
         "repeat": 3,
         "priority":"low"

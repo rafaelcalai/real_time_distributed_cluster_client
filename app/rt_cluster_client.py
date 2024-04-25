@@ -33,10 +33,16 @@ def send_task_request(task, count, repeat, task_data):
 
     client_socket.close()
     end = time.time()
+    deadline = task_data["deadline"]
     elapsed_time = end - start
-    logging.info(
-        f"Elapsed time for {task} request {count+1}/{repeat} was {elapsed_time:.4f}s for {task_data['deadline']}s deadline with response {response}"
-    )
+    if elapsed_time > deadline:
+        logging.error(
+            f"Elapsed time for {task} request {count+1}/{repeat} was {elapsed_time:.4f}s for {deadline}s deadline with response {response}"
+        )
+    else:
+        logging.info(
+            f"Elapsed time for {task} request {count+1}/{repeat} was {elapsed_time:.4f}s for {deadline}s deadline with response {response}"
+        )
 
 
 def task_connecction(thread, task, task_data):
