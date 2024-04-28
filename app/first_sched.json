@@ -4,41 +4,41 @@
         "ecxecution_time": 25,
         "period": 35,
         "repeat": 5,
-        "priority":"high"
+        "priority":1
     },
     "task_b": {
         "deadline": 35,
         "ecxecution_time": 25,
         "period": 35,
         "repeat": 5,
-        "priority":"high"
+        "priority":5
     },
     "task_c": {
         "deadline": 40,
         "ecxecution_time": 30,
         "period": 40,
         "repeat": 5,
-        "priority":"medium"
+        "priority":6
     },
     "task_d": {
         "deadline": 40,
         "ecxecution_time": 30,
         "period": 40,
         "repeat": 5,
-        "priority":"low"
+        "priority":2
     },
     "task_e": {
         "deadline": 10,
         "ecxecution_time": 3,
         "period": 7,
         "repeat": 5,
-        "priority":"low"
+        "priority":3
     },
     "task_f": {
         "deadline": 8,
         "ecxecution_time": 8,
         "period": 8,
         "repeat": 3,
-        "priority":"low"
+        "priority":2
     }
 }
