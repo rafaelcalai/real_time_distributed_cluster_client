@@ -1,44 +1,44 @@
 {
     "task_d": {
-        "deadline": 27,
+        "deadline": 30,
         "ecxecution_time": 10,
-        "period": 35,
-        "repeat": 10,
+        "period": 30,
+        "repeat": 3,
         "priority": 2
     },
     "task_e": {
-        "deadline": 27,
+        "deadline": 30,
         "ecxecution_time": 10,
-        "period": 35,
-        "repeat": 10,
+        "period": 30,
+        "repeat": 3,
         "priority": 2
     },
     "task_f": {
-        "deadline": 37,
+        "deadline": 30,
         "ecxecution_time": 10,
-        "period": 27,
-        "repeat": 10,
+        "period": 30,
+        "repeat": 3,
         "priority": 2
     },
     "task_a": {
         "deadline": 17,
         "ecxecution_time": 5,
         "period": 15,
-        "repeat": 10,
+        "repeat": 3,
         "priority": 1
     },
     "task_b": {
         "deadline": 17,
         "ecxecution_time": 5,
         "period": 15,
-        "repeat": 10,
+        "repeat": 3,
         "priority": 1
     },
     "task_c": {
         "deadline": 17,
         "ecxecution_time": 5,
         "period": 15,
-        "repeat": 10,
+        "repeat": 3,
         "priority": 1
     }
 }

@@ -1,0 +1,86 @@
+{
+    "task_a": {
+        "deadline": 17,
+        "ecxecution_time": 5,
+        "period": 15,
+        "repeat": 3,
+        "priority": 1
+    },
+    "task_b": {
+        "deadline": 17,
+        "ecxecution_time": 5,
+        "period": 15,
+        "repeat": 3,
+        "priority": 1
+    },
+    "task_c": {
+        "deadline": 17,
+        "ecxecution_time": 5,
+        "period": 15,
+        "repeat": 3,
+        "priority": 1
+    },
+    "task_d": {
+        "deadline": 30,
+        "ecxecution_time": 10,
+        "period": 30,
+        "repeat": 3,
+        "priority": 2
+    },
+    "task_e": {
+        "deadline": 30,
+        "ecxecution_time": 10,
+        "period": 30,
+        "repeat": 3,
+        "priority": 2
+    },
+    "task_f": {
+        "deadline": 30,
+        "ecxecution_time": 10,
+        "period": 30,
+        "repeat": 3,
+        "priority": 2
+    },
+    "task_g": {
+        "deadline": 17,
+        "ecxecution_time": 5,
+        "period": 15,
+        "repeat": 3,
+        "priority": 1
+    },
+    "task_h": {
+        "deadline": 17,
+        "ecxecution_time": 5,
+        "period": 15,
+        "repeat": 3,
+        "priority": 1
+    },
+    "task_i": {
+        "deadline": 17,
+        "ecxecution_time": 5,
+        "period": 15,
+        "repeat": 3,
+        "priority": 1
+    },
+    "task_j": {
+        "deadline": 30,
+        "ecxecution_time": 10,
+        "period": 30,
+        "repeat": 3,
+        "priority": 2
+    },
+    "task_k": {
+        "deadline": 30,
+        "ecxecution_time": 10,
+        "period": 30,
+        "repeat": 3,
+        "priority": 2
+    },
+    "task_l": {
+        "deadline": 30,
+        "ecxecution_time": 10,
+        "period": 30,
+        "repeat": 3,
+        "priority": 2
+    }
+}
