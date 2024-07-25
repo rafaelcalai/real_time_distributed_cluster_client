@@ -5,16 +5,20 @@ import logging
 import time
 
 
-logging.basicConfig(
-    level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s"
-)
+
+logger = logging.getLogger('rt_client_cluster')
+logger.setLevel(logging.DEBUG)
+handler = logging.FileHandler('rt_client_cluster.log')
+handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+logger.addHandler(handler)
+
 
 HOST = "192.168.1.111"
 PORT = 8765
 
 
 def send_task_request(task, count, repeat, task_data):
-    logging.info(f"{task} request {count+1}/{repeat}")
+    logger.info(f"{task} request {count+1}/{repeat}")
     task_data["task_name"] = f"{task}_{count+1}"
     start = time.time()
     client_socket = socket.socket()
@@ -35,18 +39,20 @@ def send_task_request(task, count, repeat, task_data):
     end = time.time()
     deadline = task_data["deadline"]
     elapsed_time = end - start
-    if elapsed_time > deadline:
-        logging.error(
+    if "Request Denied" in response:
+        logger.warning(f"Request {count+1}/{repeat} for {task} was denied by the scheduler in {elapsed_time:.4f}s" )        
+    elif elapsed_time > deadline:
+        logger.error(
             f"Elapsed time for {task} request {count+1}/{repeat} was {elapsed_time:.4f}s for {deadline}s deadline with response {response}"
         )
     else:
-        logging.info(
+        logger.info(
             f"Elapsed time for {task} request {count+1}/{repeat} was {elapsed_time:.4f}s for {deadline}s deadline with response {response}"
         )
 
 
 def task_connecction(thread, task, task_data):
-    logging.info(
+    logger.info(
         f"Thread number: {thread} with task: {task} and task info: {task_data}"
     )
     repeat = task_data["repeat"]
@@ -60,11 +66,11 @@ def task_connecction(thread, task, task_data):
             thread.start()
 
     except Exception as e:
-        logging.error(f"Fail to connect to the server for {task}, error: {str(e)}")
+        logger.error(f"Fail to connect to the server for {task}, error: {str(e)}")
 
 
 def main(file):
-    logging.info("Real Time Cluster Client started!")
+    logger.info("Real Time Cluster Client started!")
 
     with open(file, "r", encoding="utf-8") as f:
         task_set = json.loads(f.read())
@@ -77,6 +83,9 @@ def main(file):
 
 
 if __name__ == "__main__":
-    #main("first_sched.json")
-    #main("second_sched.json")
-    main("schedulable _cluster_taskset.json")
+    # main("first_sched.json")
+    # main("second_sched.json")
+    #main("long_schedulable_cluster_taskset.json")
+    #main("schedulable _cluster_taskset.json")
+    # main("schedulable_one_worker.json")
+    main("non_schedulable_cluster_taskset.json")
