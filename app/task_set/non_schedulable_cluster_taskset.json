@@ -3,105 +3,105 @@
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
-        "repeat": 100,
-        "priority": 1
+        "repeat": 1000
+
     },
     "task_b": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
-        "repeat": 100,
-        "priority": 1
+        "repeat": 1000
+
     },
     "task_c": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
-        "repeat": 100,
-        "priority": 1
+        "repeat": 1000
+
     },
     "task_d": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
-        "repeat": 100,
-        "priority": 2
+        "repeat": 1000
+
     },
     "task_e": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
-        "repeat": 100,
-        "priority": 2
+        "repeat": 1000
+
     },
     "task_f": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
-        "repeat": 100,
-        "priority": 2
+        "repeat": 1000
+
     },
     "task_g": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
-        "repeat": 100,
-        "priority": 1
+        "repeat": 1000
+
     },
     "task_h": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
-        "repeat": 100,
-        "priority": 1
+        "repeat": 1000
+
     },
     "task_i": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
-        "repeat": 100,
-        "priority": 1
+        "repeat": 1000
+
     },
     "task_j": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
-        "repeat": 100,
-        "priority": 2
+        "repeat": 1000
+
     },
     "task_k": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
-        "repeat": 100,
-        "priority": 2
+        "repeat": 1000
+
     },
     "task_l": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
-        "repeat": 100,
-        "priority": 2
+        "repeat": 1000
+
     },
     "task_n": {
         "deadline": 20,
         "execution_time": 10,
         "period": 20,
-        "repeat": 100,
-        "priority": 2
+        "repeat": 1000
+
     },
     "task_o": {
         "deadline": 20,
         "execution_time": 10,
         "period": 20,
-        "repeat": 100,
-        "priority": 2
+        "repeat": 1000
+
     },
     "task_p": {
         "deadline": 20,
         "execution_time": 10,
         "period": 20,
-        "repeat": 100,
-        "priority": 2
+        "repeat": 1000
+
     }
 }

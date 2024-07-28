@@ -83,9 +83,9 @@ def main(file):
 
 
 if __name__ == "__main__":
-    # main("first_sched.json")
-    # main("second_sched.json")
-    #main("long_schedulable_cluster_taskset.json")
-    #main("schedulable _cluster_taskset.json")
-    # main("schedulable_one_worker.json")
-    main("non_schedulable_cluster_taskset.json")
+    #main("task_set/first_sched.json")
+    #main("task_set/second_sched.json")
+    #main("task_set/long_schedulable_cluster_taskset.json")
+    #main("task_set/schedulable_cluster_taskset.json")
+    #main("task_set/schedulable_one_worker.json")
+    main("task_set/non_schedulable_cluster_taskset.json")
