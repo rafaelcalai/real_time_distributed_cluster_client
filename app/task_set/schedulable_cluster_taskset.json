@@ -3,72 +3,84 @@
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
-        "repeat": 500
+        "repeat": 50,
+        "image": "wait_for_value:1.1.0"
     },
     "task_b": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
-        "repeat": 500
+        "repeat": 50,
+        "image": "wait_for_value:1.1.0"
     },
     "task_c": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
-        "repeat": 500
+        "repeat": 50,
+        "image": "wait_for_value:1.1.0"
     },
     "task_d": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
-        "repeat": 500
+        "repeat": 50,
+        "image": "wait_for_value:1.1.0"
     },
     "task_e": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
-        "repeat": 500
+        "repeat": 50,
+        "image": "wait_for_value:1.1.0"
     },
     "task_f": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
-        "repeat": 500
+        "repeat": 50,
+        "image": "wait_for_value:1.1.0"
     },
     "task_g": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
-        "repeat": 500
+        "repeat": 50,
+        "image": "wait_for_value:1.1.0"
     },
     "task_h": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
-        "repeat": 500
+        "repeat": 50,
+        "image": "wait_for_value:1.1.0"
     },
     "task_i": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
-        "repeat": 500
+        "repeat": 50,
+        "image": "wait_for_value:1.1.0"
     },
     "task_j": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
-        "repeat": 500
+        "repeat": 50,
+        "image": "wait_for_value:1.1.0"
     },
     "task_k": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
-        "repeat": 500
+        "repeat": 50,
+        "image": "wait_for_value:1.1.0"
     },
     "task_l": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
-        "repeat": 500
+        "repeat": 50,
+        "image": "wait_for_value:1.1.0"
     }
 }

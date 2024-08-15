@@ -4,41 +4,41 @@
         "execution_time": 25,
         "period": 35,
         "repeat": 5,
-        "priority":1
+        "image": "wait_for_value:1.1.0"
     },
     "task_b": {
         "deadline": 35,
         "execution_time": 25,
         "period": 37,
         "repeat": 5,
-        "priority":5
+        "image": "wait_for_value:1.1.0"
     },
     "task_c": {
         "deadline": 40,
         "execution_time": 30,
         "period": 40,
         "repeat": 5,
-        "priority":6
+        "image": "wait_for_value:1.1.0"
     },
     "task_d": {
         "deadline": 40,
         "execution_time": 30,
         "period": 40,
         "repeat": 5,
-        "priority":2
+        "image": "wait_for_value:1.1.0"
     },
     "task_e": {
         "deadline": 10,
         "execution_time": 3,
         "period": 7,
         "repeat": 5,
-        "priority":3
+        "image": "wait_for_value:1.1.0"
     },
     "task_f": {
         "deadline": 8,
         "execution_time": 8,
         "period": 8,
-        "repeat": 3,
-        "priority":2
+        "repeat": 5,
+        "image": "wait_for_value:1.1.0"
     }
 }
