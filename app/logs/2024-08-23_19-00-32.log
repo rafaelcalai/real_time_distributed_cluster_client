@@ -1,0 +1,1213 @@
+2024-08-23 19:00:32,718 - INFO - Real Time Cluster Client started!
+2024-08-23 19:00:32,719 - INFO - Thread number: 0 with task: task_a and task info: {'deadline': 15, 'execution_time': 5, 'period': 15, 'repeat': 50, 'image': 'wait_for_value:1.1.0'}
+2024-08-23 19:00:32,719 - INFO - Thread number: 1 with task: task_b and task info: {'deadline': 15, 'execution_time': 5, 'period': 15, 'repeat': 50, 'image': 'wait_for_value:1.1.0'}
+2024-08-23 19:00:32,720 - INFO - task_a request 1/50
+2024-08-23 19:00:32,720 - INFO - Thread number: 2 with task: task_c and task info: {'deadline': 15, 'execution_time': 5, 'period': 15, 'repeat': 50, 'image': 'wait_for_value:1.1.0'}
+2024-08-23 19:00:32,720 - INFO - task_b request 1/50
+2024-08-23 19:00:32,720 - INFO - Thread number: 3 with task: task_d and task info: {'deadline': 35, 'execution_time': 10, 'period': 35, 'repeat': 50, 'image': 'wait_for_value:1.1.0'}
+2024-08-23 19:00:32,721 - INFO - Thread number: 4 with task: task_e and task info: {'deadline': 35, 'execution_time': 10, 'period': 35, 'repeat': 50, 'image': 'wait_for_value:1.1.0'}
+2024-08-23 19:00:32,721 - INFO - task_c request 1/50
+2024-08-23 19:00:32,721 - INFO - Thread number: 5 with task: task_f and task info: {'deadline': 35, 'execution_time': 10, 'period': 35, 'repeat': 50, 'image': 'wait_for_value:1.1.0'}
+2024-08-23 19:00:32,722 - INFO - Thread number: 6 with task: task_g and task info: {'deadline': 15, 'execution_time': 5, 'period': 15, 'repeat': 50, 'image': 'wait_for_value:1.1.0'}
+2024-08-23 19:00:32,722 - INFO - task_d request 1/50
+2024-08-23 19:00:32,724 - INFO - Thread number: 7 with task: task_h and task info: {'deadline': 15, 'execution_time': 5, 'period': 15, 'repeat': 50, 'image': 'wait_for_value:1.1.0'}
+2024-08-23 19:00:32,725 - INFO - task_f request 1/50
+2024-08-23 19:00:32,725 - INFO - task_e request 1/50
+2024-08-23 19:00:32,725 - INFO - Thread number: 8 with task: task_i and task info: {'deadline': 15, 'execution_time': 5, 'period': 15, 'repeat': 50, 'image': 'wait_for_value:1.1.0'}
+2024-08-23 19:00:32,725 - INFO - Thread number: 9 with task: task_j and task info: {'deadline': 35, 'execution_time': 10, 'period': 35, 'repeat': 50, 'image': 'wait_for_value:1.1.0'}
+2024-08-23 19:00:32,726 - INFO - task_g request 1/50
+2024-08-23 19:00:32,726 - INFO - Thread number: 10 with task: task_k and task info: {'deadline': 35, 'execution_time': 10, 'period': 35, 'repeat': 50, 'image': 'wait_for_value:1.1.0'}
+2024-08-23 19:00:32,729 - INFO - task_i request 1/50
+2024-08-23 19:00:32,730 - INFO - task_h request 1/50
+2024-08-23 19:00:32,730 - INFO - Thread number: 11 with task: task_l and task info: {'deadline': 35, 'execution_time': 10, 'period': 35, 'repeat': 50, 'image': 'wait_for_value:1.1.0'}
+2024-08-23 19:00:32,730 - INFO - task_j request 1/50
+2024-08-23 19:00:32,731 - INFO - task_k request 1/50
+2024-08-23 19:00:32,733 - INFO - task_l request 1/50
+2024-08-23 19:00:39,993 - INFO - Elapsed time for task_g request 1/50 was 7.2633s for 15s deadline with response 100
+2024-08-23 19:00:40,032 - INFO - Elapsed time for task_a request 1/50 was 7.3113s for 15s deadline with response 100
+2024-08-23 19:00:40,058 - INFO - Elapsed time for task_c request 1/50 was 7.3350s for 15s deadline with response 100
+2024-08-23 19:00:40,405 - INFO - Elapsed time for task_i request 1/50 was 7.6744s for 15s deadline with response 100
+2024-08-23 19:00:40,444 - INFO - Elapsed time for task_b request 1/50 was 7.7221s for 15s deadline with response 100
+2024-08-23 19:00:42,321 - INFO - Elapsed time for task_h request 1/50 was 9.5891s for 15s deadline with response 100
+2024-08-23 19:00:50,588 - INFO - Elapsed time for task_d request 1/50 was 17.8618s for 35s deadline with response 100
+2024-08-23 19:00:52,628 - INFO - Elapsed time for task_k request 1/50 was 19.8956s for 35s deadline with response 100
+2024-08-23 19:00:52,796 - INFO - Elapsed time for task_e request 1/50 was 20.0683s for 35s deadline with response 100
+2024-08-23 19:00:52,808 - INFO - Elapsed time for task_j request 1/50 was 20.0755s for 35s deadline with response 100
+2024-08-23 19:00:52,890 - INFO - Elapsed time for task_f request 1/50 was 20.1627s for 35s deadline with response 100
+2024-08-23 19:00:54,292 - INFO - Elapsed time for task_l request 1/50 was 21.5589s for 35s deadline with response 100
+2024-08-23 19:00:54,994 - INFO - task_g request 2/50
+2024-08-23 19:00:55,033 - INFO - task_a request 2/50
+2024-08-23 19:00:55,058 - INFO - task_c request 2/50
+2024-08-23 19:00:55,406 - INFO - task_i request 2/50
+2024-08-23 19:00:55,444 - INFO - task_b request 2/50
+2024-08-23 19:00:57,321 - INFO - task_h request 2/50
+2024-08-23 19:01:02,147 - INFO - Elapsed time for task_a request 2/50 was 7.1140s for 15s deadline with response 100
+2024-08-23 19:01:02,270 - INFO - Elapsed time for task_c request 2/50 was 7.2103s for 15s deadline with response 100
+2024-08-23 19:01:02,306 - INFO - Elapsed time for task_g request 2/50 was 7.3120s for 15s deadline with response 100
+2024-08-23 19:01:02,422 - INFO - Elapsed time for task_i request 2/50 was 7.0152s for 15s deadline with response 100
+2024-08-23 19:01:02,457 - INFO - Elapsed time for task_b request 2/50 was 7.0123s for 15s deadline with response 100
+2024-08-23 19:01:04,643 - INFO - Elapsed time for task_h request 2/50 was 7.3219s for 15s deadline with response 100
+2024-08-23 19:01:17,148 - INFO - task_a request 3/50
+2024-08-23 19:01:17,271 - INFO - task_c request 3/50
+2024-08-23 19:01:17,307 - INFO - task_g request 3/50
+2024-08-23 19:01:17,423 - INFO - task_i request 3/50
+2024-08-23 19:01:17,457 - INFO - task_b request 3/50
+2024-08-23 19:01:19,644 - INFO - task_h request 3/50
+2024-08-23 19:01:24,358 - INFO - Elapsed time for task_a request 3/50 was 7.2100s for 15s deadline with response 100
+2024-08-23 19:01:24,518 - INFO - Elapsed time for task_g request 3/50 was 7.2108s for 15s deadline with response 100
+2024-08-23 19:01:24,568 - INFO - Elapsed time for task_b request 3/50 was 7.1107s for 15s deadline with response 100
+2024-08-23 19:01:25,282 - INFO - Elapsed time for task_c request 3/50 was 8.0108s for 15s deadline with response 100
+2024-08-23 19:01:25,435 - INFO - Elapsed time for task_i request 3/50 was 8.0116s for 15s deadline with response 100
+2024-08-23 19:01:25,589 - INFO - task_d request 2/50
+2024-08-23 19:01:26,655 - INFO - Elapsed time for task_h request 3/50 was 7.0108s for 15s deadline with response 100
+2024-08-23 19:01:27,629 - INFO - task_k request 2/50
+2024-08-23 19:01:27,797 - INFO - task_e request 2/50
+2024-08-23 19:01:27,809 - INFO - task_j request 2/50
+2024-08-23 19:01:27,891 - INFO - task_f request 2/50
+2024-08-23 19:01:29,293 - INFO - task_l request 2/50
+2024-08-23 19:01:37,403 - INFO - Elapsed time for task_d request 2/50 was 11.8141s for 35s deadline with response 100
+2024-08-23 19:01:39,359 - INFO - task_a request 4/50
+2024-08-23 19:01:39,519 - INFO - task_g request 4/50
+2024-08-23 19:01:39,544 - INFO - Elapsed time for task_k request 2/50 was 11.9143s for 35s deadline with response 100
+2024-08-23 19:01:39,569 - INFO - task_b request 4/50
+2024-08-23 19:01:39,931 - INFO - Elapsed time for task_j request 2/50 was 12.1218s for 35s deadline with response 100
+2024-08-23 19:01:40,013 - INFO - Elapsed time for task_e request 2/50 was 12.2155s for 35s deadline with response 100
+2024-08-23 19:01:40,106 - INFO - Elapsed time for task_f request 2/50 was 12.2152s for 35s deadline with response 100
+2024-08-23 19:01:40,282 - INFO - task_c request 4/50
+2024-08-23 19:01:40,435 - INFO - task_i request 4/50
+2024-08-23 19:01:41,656 - INFO - task_h request 4/50
+2024-08-23 19:01:46,169 - INFO - Elapsed time for task_a request 4/50 was 6.8102s for 15s deadline with response 100
+2024-08-23 19:01:47,084 - INFO - Elapsed time for task_b request 4/50 was 7.5149s for 15s deadline with response 100
+2024-08-23 19:01:47,112 - INFO - Elapsed time for task_l request 2/50 was 17.8182s for 35s deadline with response 100
+2024-08-23 19:01:47,133 - INFO - Elapsed time for task_g request 4/50 was 7.6144s for 15s deadline with response 100
+2024-08-23 19:01:47,394 - INFO - Elapsed time for task_c request 4/50 was 7.1112s for 15s deadline with response 100
+2024-08-23 19:01:47,447 - INFO - Elapsed time for task_i request 4/50 was 7.0112s for 15s deadline with response 100
+2024-08-23 19:01:48,667 - INFO - Elapsed time for task_h request 4/50 was 7.0107s for 15s deadline with response 100
+2024-08-23 19:02:01,170 - INFO - task_a request 5/50
+2024-08-23 19:02:02,085 - INFO - task_b request 5/50
+2024-08-23 19:02:02,135 - INFO - task_g request 5/50
+2024-08-23 19:02:02,394 - INFO - task_c request 5/50
+2024-08-23 19:02:02,448 - INFO - task_i request 5/50
+2024-08-23 19:02:03,667 - INFO - task_h request 5/50
+2024-08-23 19:02:07,980 - INFO - Elapsed time for task_a request 5/50 was 6.8098s for 15s deadline with response 100
+2024-08-23 19:02:09,096 - INFO - Elapsed time for task_b request 5/50 was 7.0104s for 15s deadline with response 100
+2024-08-23 19:02:09,246 - INFO - Elapsed time for task_g request 5/50 was 7.1109s for 15s deadline with response 100
+2024-08-23 19:02:09,405 - INFO - Elapsed time for task_c request 5/50 was 7.0107s for 15s deadline with response 100
+2024-08-23 19:02:09,459 - INFO - Elapsed time for task_i request 5/50 was 7.0107s for 15s deadline with response 100
+2024-08-23 19:02:10,582 - INFO - Elapsed time for task_h request 5/50 was 6.9140s for 15s deadline with response 100
+2024-08-23 19:02:12,404 - INFO - task_d request 3/50
+2024-08-23 19:02:14,544 - INFO - task_k request 3/50
+2024-08-23 19:02:14,931 - INFO - task_j request 3/50
+2024-08-23 19:02:15,013 - INFO - task_e request 3/50
+2024-08-23 19:02:15,107 - INFO - task_f request 3/50
+2024-08-23 19:02:22,113 - INFO - task_l request 3/50
+2024-08-23 19:02:22,981 - INFO - task_a request 6/50
+2024-08-23 19:02:24,096 - INFO - task_b request 6/50
+2024-08-23 19:02:24,226 - INFO - Elapsed time for task_d request 3/50 was 11.8223s for 35s deadline with response 100
+2024-08-23 19:02:24,247 - INFO - task_g request 6/50
+2024-08-23 19:02:24,406 - INFO - task_c request 6/50
+2024-08-23 19:02:24,460 - INFO - task_i request 6/50
+2024-08-23 19:02:25,583 - INFO - task_h request 6/50
+2024-08-23 19:02:29,991 - INFO - Elapsed time for task_a request 6/50 was 7.0102s for 15s deadline with response 100
+2024-08-23 19:02:31,332 - INFO - Elapsed time for task_f request 3/50 was 16.2247s for 35s deadline with response 100
+2024-08-23 19:02:31,517 - INFO - Elapsed time for task_c request 6/50 was 7.1108s for 15s deadline with response 100
+2024-08-23 19:02:31,576 - INFO - Elapsed time for task_i request 6/50 was 7.1158s for 15s deadline with response 100
+2024-08-23 19:02:31,811 - INFO - Elapsed time for task_b request 6/50 was 7.7143s for 15s deadline with response 100
+2024-08-23 19:02:32,258 - INFO - Elapsed time for task_g request 6/50 was 8.0113s for 15s deadline with response 100
+2024-08-23 19:02:34,034 - INFO - Elapsed time for task_e request 3/50 was 19.0204s for 35s deadline with response 100
+2024-08-23 19:02:34,151 - INFO - Elapsed time for task_j request 3/50 was 19.2195s for 35s deadline with response 100
+2024-08-23 19:02:34,595 - INFO - Elapsed time for task_h request 6/50 was 9.0124s for 15s deadline with response 100
+2024-08-23 19:02:36,068 - INFO - Elapsed time for task_k request 3/50 was 21.5237s for 35s deadline with response 100
+2024-08-23 19:02:37,837 - INFO - Elapsed time for task_l request 3/50 was 15.7240s for 35s deadline with response 100
+2024-08-23 19:02:44,992 - INFO - task_a request 7/50
+2024-08-23 19:02:46,518 - INFO - task_c request 7/50
+2024-08-23 19:02:46,576 - INFO - task_i request 7/50
+2024-08-23 19:02:46,812 - INFO - task_b request 7/50
+2024-08-23 19:02:47,259 - INFO - task_g request 7/50
+2024-08-23 19:02:49,596 - INFO - task_h request 7/50
+2024-08-23 19:02:52,008 - INFO - Elapsed time for task_a request 7/50 was 7.0157s for 15s deadline with response 100
+2024-08-23 19:02:53,487 - INFO - Elapsed time for task_i request 7/50 was 6.9104s for 15s deadline with response 100
+2024-08-23 19:02:53,527 - INFO - Elapsed time for task_c request 7/50 was 7.0096s for 15s deadline with response 100
+2024-08-23 19:02:53,727 - INFO - Elapsed time for task_b request 7/50 was 6.9145s for 15s deadline with response 100
+2024-08-23 19:02:54,170 - INFO - Elapsed time for task_g request 7/50 was 6.9109s for 15s deadline with response 100
+2024-08-23 19:02:56,606 - INFO - Elapsed time for task_h request 7/50 was 7.0103s for 15s deadline with response 100
+2024-08-23 19:02:59,227 - INFO - task_d request 4/50
+2024-08-23 19:03:06,332 - INFO - task_f request 4/50
+2024-08-23 19:03:07,008 - INFO - task_a request 8/50
+2024-08-23 19:03:08,488 - INFO - task_i request 8/50
+2024-08-23 19:03:08,528 - INFO - task_c request 8/50
+2024-08-23 19:03:08,727 - INFO - task_b request 8/50
+2024-08-23 19:03:09,035 - INFO - task_e request 4/50
+2024-08-23 19:03:09,152 - INFO - task_j request 4/50
+2024-08-23 19:03:09,171 - INFO - task_g request 8/50
+2024-08-23 19:03:11,069 - INFO - task_k request 4/50
+2024-08-23 19:03:11,140 - INFO - Elapsed time for task_d request 4/50 was 11.9131s for 35s deadline with response 100
+2024-08-23 19:03:11,607 - INFO - task_h request 8/50
+2024-08-23 19:03:12,838 - INFO - task_l request 4/50
+2024-08-23 19:03:13,822 - INFO - Elapsed time for task_a request 8/50 was 6.8139s for 15s deadline with response 100
+2024-08-23 19:03:15,438 - INFO - Elapsed time for task_c request 8/50 was 6.9101s for 15s deadline with response 100
+2024-08-23 19:03:15,999 - INFO - Elapsed time for task_i request 8/50 was 7.5110s for 15s deadline with response 100
+2024-08-23 19:03:16,038 - INFO - Elapsed time for task_b request 8/50 was 7.3106s for 15s deadline with response 100
+2024-08-23 19:03:16,281 - INFO - Elapsed time for task_g request 8/50 was 7.1100s for 15s deadline with response 100
+2024-08-23 19:03:20,024 - INFO - Elapsed time for task_h request 8/50 was 8.4166s for 15s deadline with response 100
+2024-08-23 19:03:20,848 - INFO - Elapsed time for task_f request 4/50 was 14.5154s for 35s deadline with response 100
+2024-08-23 19:03:23,151 - INFO - Elapsed time for task_e request 4/50 was 14.1156s for 35s deadline with response 100
+2024-08-23 19:03:25,871 - INFO - Elapsed time for task_j request 4/50 was 16.7186s for 35s deadline with response 100
+2024-08-23 19:03:27,288 - INFO - Elapsed time for task_k request 4/50 was 16.2185s for 35s deadline with response 100
+2024-08-23 19:03:28,755 - INFO - Elapsed time for task_l request 4/50 was 15.9176s for 35s deadline with response 100
+2024-08-23 19:03:28,824 - INFO - task_a request 9/50
+2024-08-23 19:03:30,439 - INFO - task_c request 9/50
+2024-08-23 19:03:31,000 - INFO - task_i request 9/50
+2024-08-23 19:03:31,039 - INFO - task_b request 9/50
+2024-08-23 19:03:31,285 - INFO - task_g request 9/50
+2024-08-23 19:03:35,025 - INFO - task_h request 9/50
+2024-08-23 19:03:35,635 - INFO - Elapsed time for task_a request 9/50 was 6.8107s for 15s deadline with response 100
+2024-08-23 19:03:37,549 - INFO - Elapsed time for task_c request 9/50 was 7.1100s for 15s deadline with response 100
+2024-08-23 19:03:37,950 - INFO - Elapsed time for task_b request 9/50 was 6.9106s for 15s deadline with response 100
+2024-08-23 19:03:38,111 - INFO - Elapsed time for task_i request 9/50 was 7.1105s for 15s deadline with response 100
+2024-08-23 19:03:38,196 - INFO - Elapsed time for task_g request 9/50 was 6.9108s for 15s deadline with response 100
+2024-08-23 19:03:42,036 - INFO - Elapsed time for task_h request 9/50 was 7.0110s for 15s deadline with response 100
+2024-08-23 19:03:46,141 - INFO - task_d request 5/50
+2024-08-23 19:03:50,635 - INFO - task_a request 10/50
+2024-08-23 19:03:52,550 - INFO - task_c request 10/50
+2024-08-23 19:03:52,950 - INFO - task_b request 10/50
+2024-08-23 19:03:53,111 - INFO - task_i request 10/50
+2024-08-23 19:03:53,197 - INFO - task_g request 10/50
+2024-08-23 19:03:55,849 - INFO - task_f request 5/50
+2024-08-23 19:03:57,036 - INFO - task_h request 10/50
+2024-08-23 19:03:57,547 - INFO - Elapsed time for task_a request 10/50 was 6.9119s for 15s deadline with response 100
+2024-08-23 19:03:58,152 - INFO - task_e request 5/50
+2024-08-23 19:03:59,460 - INFO - Elapsed time for task_c request 10/50 was 6.9102s for 15s deadline with response 100
+2024-08-23 19:03:59,961 - INFO - Elapsed time for task_b request 10/50 was 7.0102s for 15s deadline with response 100
+2024-08-23 19:04:00,023 - INFO - Elapsed time for task_i request 10/50 was 6.9112s for 15s deadline with response 100
+2024-08-23 19:04:00,208 - INFO - Elapsed time for task_g request 10/50 was 7.0109s for 15s deadline with response 100
+2024-08-23 19:04:00,357 - INFO - Elapsed time for task_d request 5/50 was 14.2160s for 35s deadline with response 100
+2024-08-23 19:04:00,871 - INFO - task_j request 5/50
+2024-08-23 19:04:02,289 - INFO - task_k request 5/50
+2024-08-23 19:04:03,756 - INFO - task_l request 5/50
+2024-08-23 19:04:03,956 - INFO - Elapsed time for task_h request 10/50 was 6.9196s for 15s deadline with response 100
+2024-08-23 19:04:09,465 - INFO - Elapsed time for task_f request 5/50 was 13.6157s for 35s deadline with response 100
+2024-08-23 19:04:11,869 - INFO - Elapsed time for task_e request 5/50 was 13.7169s for 35s deadline with response 100
+2024-08-23 19:04:12,548 - INFO - task_a request 11/50
+2024-08-23 19:04:12,790 - INFO - Elapsed time for task_j request 5/50 was 11.9185s for 35s deadline with response 100
+2024-08-23 19:04:14,204 - INFO - Elapsed time for task_k request 5/50 was 11.9151s for 35s deadline with response 100
+2024-08-23 19:04:14,461 - INFO - task_c request 11/50
+2024-08-23 19:04:14,961 - INFO - task_b request 11/50
+2024-08-23 19:04:15,024 - INFO - task_i request 11/50
+2024-08-23 19:04:15,209 - INFO - task_g request 11/50
+2024-08-23 19:04:15,678 - INFO - Elapsed time for task_l request 5/50 was 11.9220s for 35s deadline with response 100
+2024-08-23 19:04:18,957 - INFO - task_h request 11/50
+2024-08-23 19:04:19,363 - INFO - Elapsed time for task_a request 11/50 was 6.8147s for 15s deadline with response 100
+2024-08-23 19:04:21,279 - INFO - Elapsed time for task_c request 11/50 was 6.8179s for 15s deadline with response 100
+2024-08-23 19:04:21,935 - INFO - Elapsed time for task_i request 11/50 was 6.9111s for 15s deadline with response 100
+2024-08-23 19:04:22,080 - INFO - Elapsed time for task_b request 11/50 was 7.1185s for 15s deadline with response 100
+2024-08-23 19:04:22,420 - INFO - Elapsed time for task_g request 11/50 was 7.2112s for 15s deadline with response 100
+2024-08-23 19:04:25,968 - INFO - Elapsed time for task_h request 11/50 was 7.0108s for 15s deadline with response 100
+2024-08-23 19:04:34,364 - INFO - task_a request 12/50
+2024-08-23 19:04:35,358 - INFO - task_d request 6/50
+2024-08-23 19:04:36,280 - INFO - task_c request 12/50
+2024-08-23 19:04:36,936 - INFO - task_i request 12/50
+2024-08-23 19:04:37,081 - INFO - task_b request 12/50
+2024-08-23 19:04:37,421 - INFO - task_g request 12/50
+2024-08-23 19:04:40,968 - INFO - task_h request 12/50
+2024-08-23 19:04:41,175 - INFO - Elapsed time for task_a request 12/50 was 6.8105s for 15s deadline with response 100
+2024-08-23 19:04:43,191 - INFO - Elapsed time for task_c request 12/50 was 6.9105s for 15s deadline with response 100
+2024-08-23 19:04:43,896 - INFO - Elapsed time for task_b request 12/50 was 6.8144s for 15s deadline with response 100
+2024-08-23 19:04:44,056 - INFO - Elapsed time for task_i request 12/50 was 7.1190s for 15s deadline with response 100
+2024-08-23 19:04:44,431 - INFO - Elapsed time for task_g request 12/50 was 7.0101s for 15s deadline with response 100
+2024-08-23 19:04:44,465 - INFO - task_f request 6/50
+2024-08-23 19:04:46,870 - INFO - task_e request 6/50
+2024-08-23 19:04:47,791 - INFO - task_j request 6/50
+2024-08-23 19:04:47,884 - INFO - Elapsed time for task_h request 12/50 was 6.9153s for 15s deadline with response 100
+2024-08-23 19:04:49,205 - INFO - task_k request 6/50
+2024-08-23 19:04:50,375 - INFO - Elapsed time for task_d request 6/50 was 15.0169s for 35s deadline with response 100
+2024-08-23 19:04:50,679 - INFO - task_l request 6/50
+2024-08-23 19:04:56,175 - INFO - task_a request 13/50
+2024-08-23 19:04:56,280 - INFO - Elapsed time for task_f request 6/50 was 11.8144s for 35s deadline with response 100
+2024-08-23 19:04:58,191 - INFO - task_c request 13/50
+2024-08-23 19:04:58,698 - INFO - Elapsed time for task_e request 6/50 was 11.8278s for 35s deadline with response 100
+2024-08-23 19:04:58,896 - INFO - task_b request 13/50
+2024-08-23 19:04:59,056 - INFO - task_i request 13/50
+2024-08-23 19:04:59,432 - INFO - task_g request 13/50
+2024-08-23 19:04:59,611 - INFO - Elapsed time for task_j request 6/50 was 11.8196s for 35s deadline with response 100
+2024-08-23 19:05:02,885 - INFO - task_h request 13/50
+2024-08-23 19:05:03,187 - INFO - Elapsed time for task_a request 13/50 was 7.0111s for 15s deadline with response 100
+2024-08-23 19:05:05,102 - INFO - Elapsed time for task_c request 13/50 was 6.9107s for 15s deadline with response 100
+2024-08-23 19:05:05,707 - INFO - Elapsed time for task_b request 13/50 was 6.8105s for 15s deadline with response 100
+2024-08-23 19:05:06,673 - INFO - Elapsed time for task_i request 13/50 was 7.6159s for 15s deadline with response 100
+2024-08-23 19:05:07,144 - INFO - Elapsed time for task_g request 13/50 was 7.7120s for 15s deadline with response 100
+2024-08-23 19:05:07,625 - INFO - Elapsed time for task_k request 6/50 was 18.4197s for 35s deadline with response 100
+2024-08-23 19:05:07,804 - INFO - Elapsed time for task_l request 6/50 was 17.1248s for 35s deadline with response 100
+2024-08-23 19:05:09,796 - INFO - Elapsed time for task_h request 13/50 was 6.9106s for 15s deadline with response 100
+2024-08-23 19:05:18,187 - INFO - task_a request 14/50
+2024-08-23 19:05:20,103 - INFO - task_c request 14/50
+2024-08-23 19:05:20,708 - INFO - task_b request 14/50
+2024-08-23 19:05:21,673 - INFO - task_i request 14/50
+2024-08-23 19:05:22,146 - INFO - task_g request 14/50
+2024-08-23 19:05:24,796 - INFO - task_h request 14/50
+2024-08-23 19:05:24,998 - INFO - Elapsed time for task_a request 14/50 was 6.8108s for 15s deadline with response 100
+2024-08-23 19:05:25,375 - INFO - task_d request 7/50
+2024-08-23 19:05:27,023 - INFO - Elapsed time for task_c request 14/50 was 6.9195s for 15s deadline with response 100
+2024-08-23 19:05:27,623 - INFO - Elapsed time for task_b request 14/50 was 6.9153s for 15s deadline with response 100
+2024-08-23 19:05:28,685 - INFO - Elapsed time for task_i request 14/50 was 7.0111s for 15s deadline with response 100
+2024-08-23 19:05:28,958 - INFO - Elapsed time for task_g request 14/50 was 6.8115s for 15s deadline with response 100
+2024-08-23 19:05:31,280 - INFO - task_f request 7/50
+2024-08-23 19:05:31,707 - INFO - Elapsed time for task_h request 14/50 was 6.9101s for 15s deadline with response 100
+2024-08-23 19:05:33,699 - INFO - task_e request 7/50
+2024-08-23 19:05:34,612 - INFO - task_j request 7/50
+2024-08-23 19:05:37,292 - INFO - Elapsed time for task_d request 7/50 was 11.9162s for 35s deadline with response 100
+2024-08-23 19:05:39,999 - INFO - task_a request 15/50
+2024-08-23 19:05:42,023 - INFO - task_c request 15/50
+2024-08-23 19:05:42,624 - INFO - task_b request 15/50
+2024-08-23 19:05:42,625 - INFO - task_k request 7/50
+2024-08-23 19:05:42,805 - INFO - task_l request 7/50
+2024-08-23 19:05:43,098 - INFO - Elapsed time for task_f request 7/50 was 11.8171s for 35s deadline with response 100
+2024-08-23 19:05:43,685 - INFO - task_i request 15/50
+2024-08-23 19:05:43,959 - INFO - task_g request 15/50
+2024-08-23 19:05:46,707 - INFO - task_h request 15/50
+2024-08-23 19:05:46,809 - INFO - Elapsed time for task_a request 15/50 was 6.8098s for 15s deadline with response 100
+2024-08-23 19:05:47,827 - INFO - Elapsed time for task_j request 7/50 was 13.2146s for 35s deadline with response 100
+2024-08-23 19:05:48,937 - INFO - Elapsed time for task_c request 15/50 was 6.9131s for 15s deadline with response 100
+2024-08-23 19:05:49,736 - INFO - Elapsed time for task_b request 15/50 was 7.1112s for 15s deadline with response 100
+2024-08-23 19:05:50,616 - INFO - Elapsed time for task_e request 7/50 was 16.9176s for 35s deadline with response 100
+2024-08-23 19:05:50,798 - INFO - Elapsed time for task_i request 15/50 was 7.1124s for 15s deadline with response 100
+2024-08-23 19:05:51,172 - INFO - Elapsed time for task_g request 15/50 was 7.2128s for 15s deadline with response 100
+2024-08-23 19:05:53,618 - INFO - Elapsed time for task_h request 15/50 was 6.9101s for 15s deadline with response 100
+2024-08-23 19:05:55,254 - INFO - Elapsed time for task_k request 7/50 was 12.6286s for 35s deadline with response 100
+2024-08-23 19:06:01,124 - INFO - Elapsed time for task_l request 7/50 was 18.3191s for 35s deadline with response 100
+2024-08-23 19:06:01,810 - INFO - task_a request 16/50
+2024-08-23 19:06:03,938 - INFO - task_c request 16/50
+2024-08-23 19:06:04,736 - INFO - task_b request 16/50
+2024-08-23 19:06:05,799 - INFO - task_i request 16/50
+2024-08-23 19:06:06,173 - INFO - task_g request 16/50
+2024-08-23 19:06:08,619 - INFO - task_h request 16/50
+2024-08-23 19:06:08,629 - INFO - Elapsed time for task_a request 16/50 was 6.8185s for 15s deadline with response 100
+2024-08-23 19:06:10,850 - INFO - Elapsed time for task_c request 16/50 was 6.9124s for 15s deadline with response 100
+2024-08-23 19:06:11,547 - INFO - Elapsed time for task_b request 16/50 was 6.8106s for 15s deadline with response 100
+2024-08-23 19:06:12,292 - INFO - task_d request 8/50
+2024-08-23 19:06:12,711 - INFO - Elapsed time for task_i request 16/50 was 6.9124s for 15s deadline with response 100
+2024-08-23 19:06:13,085 - INFO - Elapsed time for task_g request 16/50 was 6.9111s for 15s deadline with response 100
+2024-08-23 19:06:15,531 - INFO - Elapsed time for task_h request 16/50 was 6.9121s for 15s deadline with response 100
+2024-08-23 19:06:18,098 - INFO - task_f request 8/50
+2024-08-23 19:06:22,827 - INFO - task_j request 8/50
+2024-08-23 19:06:23,630 - INFO - task_a request 17/50
+2024-08-23 19:06:24,408 - INFO - Elapsed time for task_d request 8/50 was 12.1157s for 35s deadline with response 100
+2024-08-23 19:06:25,617 - INFO - task_e request 8/50
+2024-08-23 19:06:25,851 - INFO - task_c request 17/50
+2024-08-23 19:06:26,548 - INFO - task_b request 17/50
+2024-08-23 19:06:27,713 - INFO - task_i request 17/50
+2024-08-23 19:06:28,086 - INFO - task_g request 17/50
+2024-08-23 19:06:30,255 - INFO - task_k request 8/50
+2024-08-23 19:06:30,532 - INFO - task_h request 17/50
+2024-08-23 19:06:30,641 - INFO - Elapsed time for task_a request 17/50 was 7.0104s for 15s deadline with response 100
+2024-08-23 19:06:32,774 - INFO - Elapsed time for task_c request 17/50 was 6.9231s for 15s deadline with response 100
+2024-08-23 19:06:33,516 - INFO - Elapsed time for task_f request 8/50 was 15.4171s for 35s deadline with response 100
+2024-08-23 19:06:33,559 - INFO - Elapsed time for task_b request 17/50 was 7.0115s for 15s deadline with response 100
+2024-08-23 19:06:34,928 - INFO - Elapsed time for task_i request 17/50 was 7.2149s for 15s deadline with response 100
+2024-08-23 19:06:35,003 - INFO - Elapsed time for task_g request 17/50 was 6.9172s for 15s deadline with response 100
+2024-08-23 19:06:35,643 - INFO - Elapsed time for task_j request 8/50 was 12.8151s for 35s deadline with response 100
+2024-08-23 19:06:36,125 - INFO - task_l request 8/50
+2024-08-23 19:06:37,743 - INFO - Elapsed time for task_h request 17/50 was 7.2111s for 15s deadline with response 100
+2024-08-23 19:06:40,033 - INFO - Elapsed time for task_e request 8/50 was 14.4158s for 35s deadline with response 100
+2024-08-23 19:06:45,643 - INFO - task_a request 18/50
+2024-08-23 19:06:45,672 - INFO - Elapsed time for task_k request 8/50 was 15.4175s for 35s deadline with response 100
+2024-08-23 19:06:47,775 - INFO - task_c request 18/50
+2024-08-23 19:06:47,941 - INFO - Elapsed time for task_l request 8/50 was 11.8158s for 35s deadline with response 100
+2024-08-23 19:06:48,560 - INFO - task_b request 18/50
+2024-08-23 19:06:49,929 - INFO - task_i request 18/50
+2024-08-23 19:06:50,004 - INFO - task_g request 18/50
+2024-08-23 19:06:52,554 - INFO - Elapsed time for task_a request 18/50 was 6.9108s for 15s deadline with response 100
+2024-08-23 19:06:52,744 - INFO - task_h request 18/50
+2024-08-23 19:06:54,586 - INFO - Elapsed time for task_c request 18/50 was 6.8105s for 15s deadline with response 100
+2024-08-23 19:06:55,671 - INFO - Elapsed time for task_b request 18/50 was 7.1105s for 15s deadline with response 100
+2024-08-23 19:06:56,849 - INFO - Elapsed time for task_i request 18/50 was 6.9197s for 15s deadline with response 100
+2024-08-23 19:06:56,915 - INFO - Elapsed time for task_g request 18/50 was 6.9104s for 15s deadline with response 100
+2024-08-23 19:06:59,409 - INFO - task_d request 9/50
+2024-08-23 19:06:59,655 - INFO - Elapsed time for task_h request 18/50 was 6.9106s for 15s deadline with response 100
+2024-08-23 19:07:07,554 - INFO - task_a request 19/50
+2024-08-23 19:07:08,516 - INFO - task_f request 9/50
+2024-08-23 19:07:09,586 - INFO - task_c request 19/50
+2024-08-23 19:07:10,643 - INFO - task_j request 9/50
+2024-08-23 19:07:10,671 - INFO - task_b request 19/50
+2024-08-23 19:07:11,225 - INFO - Elapsed time for task_d request 9/50 was 11.8155s for 35s deadline with response 100
+2024-08-23 19:07:11,849 - INFO - task_i request 19/50
+2024-08-23 19:07:11,915 - INFO - task_g request 19/50
+2024-08-23 19:07:14,565 - INFO - Elapsed time for task_a request 19/50 was 7.0108s for 15s deadline with response 100
+2024-08-23 19:07:14,655 - INFO - task_h request 19/50
+2024-08-23 19:07:15,034 - INFO - task_e request 9/50
+2024-08-23 19:07:16,499 - INFO - Elapsed time for task_c request 19/50 was 6.9124s for 15s deadline with response 100
+2024-08-23 19:07:17,687 - INFO - Elapsed time for task_b request 19/50 was 7.0150s for 15s deadline with response 100
+2024-08-23 19:07:19,060 - INFO - Elapsed time for task_i request 19/50 was 7.2100s for 15s deadline with response 100
+2024-08-23 19:07:19,126 - INFO - Elapsed time for task_g request 19/50 was 7.2101s for 15s deadline with response 100
+2024-08-23 19:07:20,673 - INFO - task_k request 9/50
+2024-08-23 19:07:21,668 - INFO - Elapsed time for task_h request 19/50 was 7.0127s for 15s deadline with response 100
+2024-08-23 19:07:22,942 - INFO - task_l request 9/50
+2024-08-23 19:07:23,132 - INFO - Elapsed time for task_f request 9/50 was 14.6157s for 35s deadline with response 100
+2024-08-23 19:07:26,566 - INFO - Elapsed time for task_j request 9/50 was 15.9220s for 35s deadline with response 100
+2024-08-23 19:07:28,655 - INFO - Elapsed time for task_e request 9/50 was 13.6204s for 35s deadline with response 100
+2024-08-23 19:07:29,566 - INFO - task_a request 20/50
+2024-08-23 19:07:31,499 - INFO - task_c request 20/50
+2024-08-23 19:07:32,488 - INFO - Elapsed time for task_k request 9/50 was 11.8146s for 35s deadline with response 100
+2024-08-23 19:07:32,688 - INFO - task_b request 20/50
+2024-08-23 19:07:34,061 - INFO - task_i request 20/50
+2024-08-23 19:07:34,126 - INFO - task_g request 20/50
+2024-08-23 19:07:34,859 - INFO - Elapsed time for task_l request 9/50 was 11.9174s for 35s deadline with response 100
+2024-08-23 19:07:36,384 - INFO - Elapsed time for task_a request 20/50 was 6.8174s for 15s deadline with response 100
+2024-08-23 19:07:36,670 - INFO - task_h request 20/50
+2024-08-23 19:07:38,410 - INFO - Elapsed time for task_c request 20/50 was 6.9099s for 15s deadline with response 100
+2024-08-23 19:07:39,499 - INFO - Elapsed time for task_b request 20/50 was 6.8104s for 15s deadline with response 100
+2024-08-23 19:07:41,038 - INFO - Elapsed time for task_g request 20/50 was 6.9117s for 15s deadline with response 100
+2024-08-23 19:07:41,072 - INFO - Elapsed time for task_i request 20/50 was 7.0114s for 15s deadline with response 100
+2024-08-23 19:07:43,482 - INFO - Elapsed time for task_h request 20/50 was 6.8115s for 15s deadline with response 100
+2024-08-23 19:07:46,225 - INFO - task_d request 10/50
+2024-08-23 19:07:51,385 - INFO - task_a request 21/50
+2024-08-23 19:07:53,410 - INFO - task_c request 21/50
+2024-08-23 19:07:54,499 - INFO - task_b request 21/50
+2024-08-23 19:07:56,039 - INFO - task_g request 21/50
+2024-08-23 19:07:56,073 - INFO - task_i request 21/50
+2024-08-23 19:07:58,133 - INFO - task_f request 10/50
+2024-08-23 19:07:58,144 - INFO - Elapsed time for task_d request 10/50 was 11.9179s for 35s deadline with response 100
+2024-08-23 19:07:58,395 - INFO - Elapsed time for task_a request 21/50 was 7.0106s for 15s deadline with response 100
+2024-08-23 19:07:58,482 - INFO - task_h request 21/50
+2024-08-23 19:08:00,321 - INFO - Elapsed time for task_c request 21/50 was 6.9105s for 15s deadline with response 100
+2024-08-23 19:08:01,410 - INFO - Elapsed time for task_b request 21/50 was 6.9108s for 15s deadline with response 100
+2024-08-23 19:08:01,566 - INFO - task_j request 10/50
+2024-08-23 19:08:02,949 - INFO - Elapsed time for task_g request 21/50 was 6.9099s for 15s deadline with response 100
+2024-08-23 19:08:02,988 - INFO - Elapsed time for task_i request 21/50 was 6.9144s for 15s deadline with response 100
+2024-08-23 19:08:03,655 - INFO - task_e request 10/50
+2024-08-23 19:08:05,497 - INFO - Elapsed time for task_h request 21/50 was 7.0147s for 15s deadline with response 100
+2024-08-23 19:08:07,489 - INFO - task_k request 10/50
+2024-08-23 19:08:09,860 - INFO - task_l request 10/50
+2024-08-23 19:08:10,050 - INFO - Elapsed time for task_f request 10/50 was 11.9172s for 35s deadline with response 100
+2024-08-23 19:08:13,396 - INFO - task_a request 22/50
+2024-08-23 19:08:13,681 - INFO - Elapsed time for task_j request 10/50 was 12.1142s for 35s deadline with response 100
+2024-08-23 19:08:15,321 - INFO - task_c request 22/50
+2024-08-23 19:08:15,571 - INFO - Elapsed time for task_e request 10/50 was 11.9151s for 35s deadline with response 100
+2024-08-23 19:08:16,411 - INFO - task_b request 22/50
+2024-08-23 19:08:17,950 - INFO - task_g request 22/50
+2024-08-23 19:08:17,988 - INFO - task_i request 22/50
+2024-08-23 19:08:19,605 - INFO - Elapsed time for task_k request 10/50 was 12.1149s for 35s deadline with response 100
+2024-08-23 19:08:20,206 - INFO - Elapsed time for task_a request 22/50 was 6.8100s for 15s deadline with response 100
+2024-08-23 19:08:20,498 - INFO - task_h request 22/50
+2024-08-23 19:08:21,976 - INFO - Elapsed time for task_l request 10/50 was 12.1153s for 35s deadline with response 100
+2024-08-23 19:08:22,335 - INFO - Elapsed time for task_c request 22/50 was 7.0137s for 15s deadline with response 100
+2024-08-23 19:08:23,322 - INFO - Elapsed time for task_b request 22/50 was 6.9104s for 15s deadline with response 100
+2024-08-23 19:08:24,899 - INFO - Elapsed time for task_i request 22/50 was 6.9107s for 15s deadline with response 100
+2024-08-23 19:08:25,060 - INFO - Elapsed time for task_g request 22/50 was 7.1102s for 15s deadline with response 100
+2024-08-23 19:08:27,421 - INFO - Elapsed time for task_h request 22/50 was 6.9228s for 15s deadline with response 100
+2024-08-23 19:08:33,144 - INFO - task_d request 11/50
+2024-08-23 19:08:35,207 - INFO - task_a request 23/50
+2024-08-23 19:08:37,336 - INFO - task_c request 23/50
+2024-08-23 19:08:38,322 - INFO - task_b request 23/50
+2024-08-23 19:08:39,900 - INFO - task_i request 23/50
+2024-08-23 19:08:40,061 - INFO - task_g request 23/50
+2024-08-23 19:08:42,421 - INFO - task_h request 23/50
+2024-08-23 19:08:43,819 - INFO - Elapsed time for task_a request 23/50 was 8.6117s for 15s deadline with response 100
+2024-08-23 19:08:44,247 - INFO - Elapsed time for task_c request 23/50 was 6.9105s for 15s deadline with response 100
+2024-08-23 19:08:45,051 - INFO - task_f request 11/50
+2024-08-23 19:08:45,332 - INFO - Elapsed time for task_b request 23/50 was 7.0100s for 15s deadline with response 100
+2024-08-23 19:08:46,761 - INFO - Elapsed time for task_d request 11/50 was 13.6162s for 35s deadline with response 100
+2024-08-23 19:08:46,814 - INFO - Elapsed time for task_i request 23/50 was 6.9140s for 15s deadline with response 100
+2024-08-23 19:08:47,086 - INFO - Elapsed time for task_g request 23/50 was 7.0239s for 15s deadline with response 100
+2024-08-23 19:08:48,681 - INFO - task_j request 11/50
+2024-08-23 19:08:49,335 - INFO - Elapsed time for task_h request 23/50 was 6.9137s for 15s deadline with response 100
+2024-08-23 19:08:50,571 - INFO - task_e request 11/50
+2024-08-23 19:08:54,605 - INFO - task_k request 11/50
+2024-08-23 19:08:56,966 - INFO - Elapsed time for task_f request 11/50 was 11.9147s for 35s deadline with response 100
+2024-08-23 19:08:56,976 - INFO - task_l request 11/50
+2024-08-23 19:08:58,820 - INFO - task_a request 24/50
+2024-08-23 19:08:59,247 - INFO - task_c request 24/50
+2024-08-23 19:09:00,333 - INFO - task_b request 24/50
+2024-08-23 19:09:00,496 - INFO - Elapsed time for task_j request 11/50 was 11.8145s for 35s deadline with response 100
+2024-08-23 19:09:01,815 - INFO - task_i request 24/50
+2024-08-23 19:09:02,086 - INFO - task_g request 24/50
+2024-08-23 19:09:04,337 - INFO - task_h request 24/50
+2024-08-23 19:09:05,739 - INFO - Elapsed time for task_a request 24/50 was 6.9187s for 15s deadline with response 100
+2024-08-23 19:09:06,300 - INFO - Elapsed time for task_e request 11/50 was 15.7282s for 35s deadline with response 100
+2024-08-23 19:09:06,459 - INFO - Elapsed time for task_c request 24/50 was 7.2111s for 15s deadline with response 100
+2024-08-23 19:09:07,344 - INFO - Elapsed time for task_b request 24/50 was 7.0105s for 15s deadline with response 100
+2024-08-23 19:09:08,722 - INFO - Elapsed time for task_k request 11/50 was 14.1159s for 35s deadline with response 100
+2024-08-23 19:09:08,830 - INFO - Elapsed time for task_i request 24/50 was 7.0151s for 15s deadline with response 100
+2024-08-23 19:09:08,997 - INFO - Elapsed time for task_g request 24/50 was 6.9108s for 15s deadline with response 100
+2024-08-23 19:09:10,893 - INFO - Elapsed time for task_l request 11/50 was 13.9161s for 35s deadline with response 100
+2024-08-23 19:09:11,449 - INFO - Elapsed time for task_h request 24/50 was 7.1125s for 15s deadline with response 100
+2024-08-23 19:09:20,740 - INFO - task_a request 25/50
+2024-08-23 19:09:21,459 - INFO - task_c request 25/50
+2024-08-23 19:09:21,762 - INFO - task_d request 12/50
+2024-08-23 19:09:22,344 - INFO - task_b request 25/50
+2024-08-23 19:09:23,831 - INFO - task_i request 25/50
+2024-08-23 19:09:23,998 - INFO - task_g request 25/50
+2024-08-23 19:09:26,450 - INFO - task_h request 25/50
+2024-08-23 19:09:27,550 - INFO - Elapsed time for task_a request 25/50 was 6.8106s for 15s deadline with response 100
+2024-08-23 19:09:28,370 - INFO - Elapsed time for task_c request 25/50 was 6.9104s for 15s deadline with response 100
+2024-08-23 19:09:29,255 - INFO - Elapsed time for task_b request 25/50 was 6.9099s for 15s deadline with response 100
+2024-08-23 19:09:30,742 - INFO - Elapsed time for task_i request 25/50 was 6.9104s for 15s deadline with response 100
+2024-08-23 19:09:30,908 - INFO - Elapsed time for task_g request 25/50 was 6.9100s for 15s deadline with response 100
+2024-08-23 19:09:31,966 - INFO - task_f request 12/50
+2024-08-23 19:09:33,364 - INFO - Elapsed time for task_h request 25/50 was 6.9141s for 15s deadline with response 100
+2024-08-23 19:09:34,776 - INFO - Elapsed time for task_d request 12/50 was 13.0139s for 35s deadline with response 100
+2024-08-23 19:09:35,497 - INFO - task_j request 12/50
+2024-08-23 19:09:41,301 - INFO - task_e request 12/50
+2024-08-23 19:09:42,551 - INFO - task_a request 26/50
+2024-08-23 19:09:43,371 - INFO - task_c request 26/50
+2024-08-23 19:09:43,722 - INFO - task_k request 12/50
+2024-08-23 19:09:44,255 - INFO - task_b request 26/50
+2024-08-23 19:09:44,282 - INFO - Elapsed time for task_f request 12/50 was 12.3152s for 35s deadline with response 100
+2024-08-23 19:09:45,742 - INFO - task_i request 26/50
+2024-08-23 19:09:45,893 - INFO - task_l request 12/50
+2024-08-23 19:09:45,909 - INFO - task_g request 26/50
+2024-08-23 19:09:48,011 - INFO - Elapsed time for task_j request 12/50 was 12.5141s for 35s deadline with response 100
+2024-08-23 19:09:48,365 - INFO - task_h request 26/50
+2024-08-23 19:09:50,070 - INFO - Elapsed time for task_a request 26/50 was 7.5186s for 15s deadline with response 100
+2024-08-23 19:09:50,283 - INFO - Elapsed time for task_c request 26/50 was 6.9117s for 15s deadline with response 100
+2024-08-23 19:09:51,171 - INFO - Elapsed time for task_b request 26/50 was 6.9153s for 15s deadline with response 100
+2024-08-23 19:09:53,221 - INFO - Elapsed time for task_g request 26/50 was 7.3113s for 15s deadline with response 100
+2024-08-23 19:09:53,254 - INFO - Elapsed time for task_i request 26/50 was 7.5111s for 15s deadline with response 100
+2024-08-23 19:09:55,181 - INFO - Elapsed time for task_h request 26/50 was 6.8162s for 15s deadline with response 100
+2024-08-23 19:09:55,817 - INFO - Elapsed time for task_e request 12/50 was 14.5163s for 35s deadline with response 100
+2024-08-23 19:09:58,039 - INFO - Elapsed time for task_k request 12/50 was 14.3168s for 35s deadline with response 100
+2024-08-23 19:10:03,018 - INFO - Elapsed time for task_l request 12/50 was 17.1248s for 35s deadline with response 100
+2024-08-23 19:10:05,070 - INFO - task_a request 27/50
+2024-08-23 19:10:05,283 - INFO - task_c request 27/50
+2024-08-23 19:10:06,172 - INFO - task_b request 27/50
+2024-08-23 19:10:08,222 - INFO - task_g request 27/50
+2024-08-23 19:10:08,255 - INFO - task_i request 27/50
+2024-08-23 19:10:09,777 - INFO - task_d request 13/50
+2024-08-23 19:10:10,182 - INFO - task_h request 27/50
+2024-08-23 19:10:11,981 - INFO - Elapsed time for task_a request 27/50 was 6.9107s for 15s deadline with response 100
+2024-08-23 19:10:12,194 - INFO - Elapsed time for task_c request 27/50 was 6.9109s for 15s deadline with response 100
+2024-08-23 19:10:12,982 - INFO - Elapsed time for task_b request 27/50 was 6.8104s for 15s deadline with response 100
+2024-08-23 19:10:15,165 - INFO - Elapsed time for task_i request 27/50 was 6.9108s for 15s deadline with response 100
+2024-08-23 19:10:15,240 - INFO - Elapsed time for task_g request 27/50 was 7.0183s for 15s deadline with response 100
+2024-08-23 19:10:18,694 - INFO - Elapsed time for task_h request 27/50 was 8.5115s for 15s deadline with response 100
+2024-08-23 19:10:19,283 - INFO - task_f request 13/50
+2024-08-23 19:10:22,295 - INFO - Elapsed time for task_d request 13/50 was 12.5178s for 35s deadline with response 100
+2024-08-23 19:10:23,011 - INFO - task_j request 13/50
+2024-08-23 19:10:26,982 - INFO - task_a request 28/50
+2024-08-23 19:10:27,195 - INFO - task_c request 28/50
+2024-08-23 19:10:27,984 - INFO - task_b request 28/50
+2024-08-23 19:10:30,166 - INFO - task_i request 28/50
+2024-08-23 19:10:30,241 - INFO - task_g request 28/50
+2024-08-23 19:10:30,818 - INFO - task_e request 13/50
+2024-08-23 19:10:31,198 - INFO - Elapsed time for task_f request 13/50 was 11.9149s for 35s deadline with response 100
+2024-08-23 19:10:33,040 - INFO - task_k request 13/50
+2024-08-23 19:10:33,695 - INFO - task_h request 28/50
+2024-08-23 19:10:33,798 - INFO - Elapsed time for task_a request 28/50 was 6.8159s for 15s deadline with response 100
+2024-08-23 19:10:34,105 - INFO - Elapsed time for task_c request 28/50 was 6.9094s for 15s deadline with response 100
+2024-08-23 19:10:34,899 - INFO - Elapsed time for task_b request 28/50 was 6.9153s for 15s deadline with response 100
+2024-08-23 19:10:35,527 - INFO - Elapsed time for task_j request 13/50 was 12.5152s for 35s deadline with response 100
+2024-08-23 19:10:37,455 - INFO - Elapsed time for task_g request 28/50 was 7.2134s for 15s deadline with response 100
+2024-08-23 19:10:37,777 - INFO - Elapsed time for task_i request 28/50 was 7.6103s for 15s deadline with response 100
+2024-08-23 19:10:38,019 - INFO - task_l request 13/50
+2024-08-23 19:10:40,706 - INFO - Elapsed time for task_h request 28/50 was 7.0111s for 15s deadline with response 100
+2024-08-23 19:10:43,233 - INFO - Elapsed time for task_e request 13/50 was 12.4149s for 35s deadline with response 100
+2024-08-23 19:10:46,861 - INFO - Elapsed time for task_k request 13/50 was 13.8210s for 35s deadline with response 100
+2024-08-23 19:10:48,799 - INFO - task_a request 29/50
+2024-08-23 19:10:49,105 - INFO - task_c request 29/50
+2024-08-23 19:10:49,900 - INFO - task_b request 29/50
+2024-08-23 19:10:50,035 - INFO - Elapsed time for task_l request 13/50 was 12.0162s for 35s deadline with response 100
+2024-08-23 19:10:52,455 - INFO - task_g request 29/50
+2024-08-23 19:10:52,777 - INFO - task_i request 29/50
+2024-08-23 19:10:55,707 - INFO - task_h request 29/50
+2024-08-23 19:10:56,210 - INFO - Elapsed time for task_a request 29/50 was 7.4105s for 15s deadline with response 100
+2024-08-23 19:10:56,416 - INFO - Elapsed time for task_c request 29/50 was 7.3102s for 15s deadline with response 100
+2024-08-23 19:10:56,810 - INFO - Elapsed time for task_b request 29/50 was 6.9100s for 15s deadline with response 100
+2024-08-23 19:10:57,295 - INFO - task_d request 14/50
+2024-08-23 19:10:59,467 - INFO - Elapsed time for task_g request 29/50 was 7.0111s for 15s deadline with response 100
+2024-08-23 19:10:59,791 - INFO - Elapsed time for task_i request 29/50 was 7.0139s for 15s deadline with response 100
+2024-08-23 19:11:02,718 - INFO - Elapsed time for task_h request 29/50 was 7.0110s for 15s deadline with response 100
+2024-08-23 19:11:06,198 - INFO - task_f request 14/50
+2024-08-23 19:11:09,110 - INFO - Elapsed time for task_d request 14/50 was 11.8145s for 35s deadline with response 100
+2024-08-23 19:11:10,528 - INFO - task_j request 14/50
+2024-08-23 19:11:11,210 - INFO - task_a request 30/50
+2024-08-23 19:11:11,416 - INFO - task_c request 30/50
+2024-08-23 19:11:11,811 - INFO - task_b request 30/50
+2024-08-23 19:11:14,468 - INFO - task_g request 30/50
+2024-08-23 19:11:14,792 - INFO - task_i request 30/50
+2024-08-23 19:11:17,719 - INFO - task_h request 30/50
+2024-08-23 19:11:18,021 - INFO - Elapsed time for task_a request 30/50 was 6.8100s for 15s deadline with response 100
+2024-08-23 19:11:18,234 - INFO - task_e request 14/50
+2024-08-23 19:11:18,426 - INFO - Elapsed time for task_c request 30/50 was 7.0099s for 15s deadline with response 100
+2024-08-23 19:11:18,820 - INFO - Elapsed time for task_b request 30/50 was 7.0095s for 15s deadline with response 100
+2024-08-23 19:11:18,914 - INFO - Elapsed time for task_f request 14/50 was 12.7158s for 35s deadline with response 100
+2024-08-23 19:11:21,483 - INFO - Elapsed time for task_g request 30/50 was 7.0148s for 15s deadline with response 100
+2024-08-23 19:11:21,603 - INFO - Elapsed time for task_i request 30/50 was 6.8107s for 15s deadline with response 100
+2024-08-23 19:11:21,862 - INFO - task_k request 14/50
+2024-08-23 19:11:23,946 - INFO - Elapsed time for task_j request 14/50 was 13.4179s for 35s deadline with response 100
+2024-08-23 19:11:24,730 - INFO - Elapsed time for task_h request 30/50 was 7.0107s for 15s deadline with response 100
+2024-08-23 19:11:25,036 - INFO - task_l request 14/50
+2024-08-23 19:11:30,651 - INFO - Elapsed time for task_e request 14/50 was 12.4169s for 35s deadline with response 100
+2024-08-23 19:11:33,021 - INFO - task_a request 31/50
+2024-08-23 19:11:33,427 - INFO - task_c request 31/50
+2024-08-23 19:11:33,782 - INFO - Elapsed time for task_k request 14/50 was 11.9195s for 35s deadline with response 100
+2024-08-23 19:11:33,821 - INFO - task_b request 31/50
+2024-08-23 19:11:36,483 - INFO - task_g request 31/50
+2024-08-23 19:11:36,604 - INFO - task_i request 31/50
+2024-08-23 19:11:36,851 - INFO - Elapsed time for task_l request 14/50 was 11.8152s for 35s deadline with response 100
+2024-08-23 19:11:39,731 - INFO - task_h request 31/50
+2024-08-23 19:11:39,832 - INFO - Elapsed time for task_a request 31/50 was 6.8102s for 15s deadline with response 100
+2024-08-23 19:11:40,441 - INFO - Elapsed time for task_c request 31/50 was 7.0135s for 15s deadline with response 100
+2024-08-23 19:11:41,031 - INFO - Elapsed time for task_b request 31/50 was 7.2099s for 15s deadline with response 100
+2024-08-23 19:11:43,294 - INFO - Elapsed time for task_g request 31/50 was 6.8108s for 15s deadline with response 100
+2024-08-23 19:11:43,615 - INFO - Elapsed time for task_i request 31/50 was 7.0114s for 15s deadline with response 100
+2024-08-23 19:11:44,111 - INFO - task_d request 15/50
+2024-08-23 19:11:46,742 - INFO - Elapsed time for task_h request 31/50 was 7.0109s for 15s deadline with response 100
+2024-08-23 19:11:53,915 - INFO - task_f request 15/50
+2024-08-23 19:11:54,832 - INFO - task_a request 32/50
+2024-08-23 19:11:55,441 - INFO - task_c request 32/50
+2024-08-23 19:11:56,027 - INFO - Elapsed time for task_d request 15/50 was 11.9165s for 35s deadline with response 100
+2024-08-23 19:11:56,032 - INFO - task_b request 32/50
+2024-08-23 19:11:58,295 - INFO - task_g request 32/50
+2024-08-23 19:11:58,616 - INFO - task_i request 32/50
+2024-08-23 19:11:58,946 - INFO - task_j request 15/50
+2024-08-23 19:12:01,742 - INFO - task_h request 32/50
+2024-08-23 19:12:01,743 - INFO - Elapsed time for task_a request 32/50 was 6.9103s for 15s deadline with response 100
+2024-08-23 19:12:04,053 - INFO - Elapsed time for task_c request 32/50 was 8.6117s for 15s deadline with response 100
+2024-08-23 19:12:05,206 - INFO - Elapsed time for task_g request 32/50 was 6.9109s for 15s deadline with response 100
+2024-08-23 19:12:05,544 - INFO - Elapsed time for task_b request 32/50 was 9.5124s for 15s deadline with response 100
+2024-08-23 19:12:05,651 - INFO - task_e request 15/50
+2024-08-23 19:12:05,829 - INFO - Elapsed time for task_i request 32/50 was 7.2129s for 15s deadline with response 100
+2024-08-23 19:12:08,783 - INFO - task_k request 15/50
+2024-08-23 19:12:08,954 - INFO - Elapsed time for task_h request 32/50 was 7.2110s for 15s deadline with response 100
+2024-08-23 19:12:09,132 - INFO - Elapsed time for task_f request 15/50 was 15.2168s for 35s deadline with response 100
+2024-08-23 19:12:11,853 - INFO - task_l request 15/50
+2024-08-23 19:12:13,963 - INFO - Elapsed time for task_j request 15/50 was 15.0164s for 35s deadline with response 100
+2024-08-23 19:12:16,743 - INFO - task_a request 33/50
+2024-08-23 19:12:17,767 - INFO - Elapsed time for task_e request 15/50 was 12.1156s for 35s deadline with response 100
+2024-08-23 19:12:19,054 - INFO - task_c request 33/50
+2024-08-23 19:12:20,207 - INFO - task_g request 33/50
+2024-08-23 19:12:20,545 - INFO - task_b request 33/50
+2024-08-23 19:12:20,707 - INFO - Elapsed time for task_k request 15/50 was 11.9237s for 35s deadline with response 100
+2024-08-23 19:12:20,830 - INFO - task_i request 33/50
+2024-08-23 19:12:23,654 - INFO - Elapsed time for task_a request 33/50 was 6.9106s for 15s deadline with response 100
+2024-08-23 19:12:23,767 - INFO - Elapsed time for task_l request 15/50 was 11.9143s for 35s deadline with response 100
+2024-08-23 19:12:23,955 - INFO - task_h request 33/50
+2024-08-23 19:12:26,165 - INFO - Elapsed time for task_c request 33/50 was 7.1108s for 15s deadline with response 100
+2024-08-23 19:12:27,117 - INFO - Elapsed time for task_g request 33/50 was 6.9098s for 15s deadline with response 100
+2024-08-23 19:12:27,559 - INFO - Elapsed time for task_b request 33/50 was 7.0136s for 15s deadline with response 100
+2024-08-23 19:12:27,941 - INFO - Elapsed time for task_i request 33/50 was 7.1103s for 15s deadline with response 100
+2024-08-23 19:12:30,865 - INFO - Elapsed time for task_h request 33/50 was 6.9105s for 15s deadline with response 100
+2024-08-23 19:12:31,028 - INFO - task_d request 16/50
+2024-08-23 19:12:38,655 - INFO - task_a request 34/50
+2024-08-23 19:12:41,165 - INFO - task_c request 34/50
+2024-08-23 19:12:42,117 - INFO - task_g request 34/50
+2024-08-23 19:12:42,560 - INFO - task_b request 34/50
+2024-08-23 19:12:42,843 - INFO - Elapsed time for task_d request 16/50 was 11.8146s for 35s deadline with response 100
+2024-08-23 19:12:42,941 - INFO - task_i request 34/50
+2024-08-23 19:12:44,133 - INFO - task_f request 16/50
+2024-08-23 19:12:45,566 - INFO - Elapsed time for task_a request 34/50 was 6.9110s for 15s deadline with response 100
+2024-08-23 19:12:45,866 - INFO - task_h request 34/50
+2024-08-23 19:12:48,275 - INFO - Elapsed time for task_c request 34/50 was 7.1094s for 15s deadline with response 100
+2024-08-23 19:12:48,964 - INFO - task_j request 16/50
+2024-08-23 19:12:49,029 - INFO - Elapsed time for task_g request 34/50 was 6.9111s for 15s deadline with response 100
+2024-08-23 19:12:49,570 - INFO - Elapsed time for task_b request 34/50 was 7.0099s for 15s deadline with response 100
+2024-08-23 19:12:49,956 - INFO - Elapsed time for task_i request 34/50 was 7.0149s for 15s deadline with response 100
+2024-08-23 19:12:52,768 - INFO - task_e request 16/50
+2024-08-23 19:12:52,879 - INFO - Elapsed time for task_h request 34/50 was 7.0125s for 15s deadline with response 100
+2024-08-23 19:12:55,707 - INFO - task_k request 16/50
+2024-08-23 19:12:56,356 - INFO - Elapsed time for task_f request 16/50 was 12.2229s for 35s deadline with response 100
+2024-08-23 19:12:58,768 - INFO - task_l request 16/50
+2024-08-23 19:13:00,567 - INFO - task_a request 35/50
+2024-08-23 19:13:00,791 - INFO - Elapsed time for task_j request 16/50 was 11.8272s for 35s deadline with response 100
+2024-08-23 19:13:03,276 - INFO - task_c request 35/50
+2024-08-23 19:13:04,030 - INFO - task_g request 35/50
+2024-08-23 19:13:04,571 - INFO - task_b request 35/50
+2024-08-23 19:13:04,694 - INFO - Elapsed time for task_e request 16/50 was 11.9263s for 35s deadline with response 100
+2024-08-23 19:13:04,957 - INFO - task_i request 35/50
+2024-08-23 19:13:07,378 - INFO - Elapsed time for task_a request 35/50 was 6.8108s for 15s deadline with response 100
+2024-08-23 19:13:07,879 - INFO - task_h request 35/50
+2024-08-23 19:13:10,387 - INFO - Elapsed time for task_c request 35/50 was 7.1109s for 15s deadline with response 100
+2024-08-23 19:13:10,942 - INFO - Elapsed time for task_g request 35/50 was 6.9119s for 15s deadline with response 100
+2024-08-23 19:13:11,025 - INFO - Elapsed time for task_k request 16/50 was 15.3176s for 35s deadline with response 100
+2024-08-23 19:13:11,584 - INFO - Elapsed time for task_b request 35/50 was 7.0127s for 15s deadline with response 100
+2024-08-23 19:13:11,967 - INFO - Elapsed time for task_i request 35/50 was 7.0102s for 15s deadline with response 100
+2024-08-23 19:13:13,789 - INFO - Elapsed time for task_l request 16/50 was 15.0209s for 35s deadline with response 100
+2024-08-23 19:13:14,791 - INFO - Elapsed time for task_h request 35/50 was 6.9112s for 15s deadline with response 100
+2024-08-23 19:13:17,843 - INFO - task_d request 17/50
+2024-08-23 19:13:22,379 - INFO - task_a request 36/50
+2024-08-23 19:13:25,388 - INFO - task_c request 36/50
+2024-08-23 19:13:25,942 - INFO - task_g request 36/50
+2024-08-23 19:13:26,585 - INFO - task_b request 36/50
+2024-08-23 19:13:26,968 - INFO - task_i request 36/50
+2024-08-23 19:13:29,293 - INFO - Elapsed time for task_a request 36/50 was 6.9131s for 15s deadline with response 100
+2024-08-23 19:13:29,658 - INFO - Elapsed time for task_d request 17/50 was 11.8142s for 35s deadline with response 100
+2024-08-23 19:13:29,792 - INFO - task_h request 36/50
+2024-08-23 19:13:31,356 - INFO - task_f request 17/50
+2024-08-23 19:13:32,398 - INFO - Elapsed time for task_c request 36/50 was 7.0101s for 15s deadline with response 100
+2024-08-23 19:13:32,955 - INFO - Elapsed time for task_g request 36/50 was 7.0122s for 15s deadline with response 100
+2024-08-23 19:13:33,598 - INFO - Elapsed time for task_b request 36/50 was 7.0128s for 15s deadline with response 100
+2024-08-23 19:13:33,979 - INFO - Elapsed time for task_i request 36/50 was 7.0111s for 15s deadline with response 100
+2024-08-23 19:13:35,792 - INFO - task_j request 17/50
+2024-08-23 19:13:38,406 - INFO - Elapsed time for task_h request 36/50 was 8.6134s for 15s deadline with response 100
+2024-08-23 19:13:39,695 - INFO - task_e request 17/50
+2024-08-23 19:13:43,472 - INFO - Elapsed time for task_f request 17/50 was 12.1157s for 35s deadline with response 100
+2024-08-23 19:13:44,293 - INFO - task_a request 37/50
+2024-08-23 19:13:46,026 - INFO - task_k request 17/50
+2024-08-23 19:13:47,399 - INFO - task_c request 37/50
+2024-08-23 19:13:47,806 - INFO - Elapsed time for task_j request 17/50 was 12.0142s for 35s deadline with response 100
+2024-08-23 19:13:47,955 - INFO - task_g request 37/50
+2024-08-23 19:13:48,599 - INFO - task_b request 37/50
+2024-08-23 19:13:48,790 - INFO - task_l request 17/50
+2024-08-23 19:13:48,980 - INFO - task_i request 37/50
+2024-08-23 19:13:51,304 - INFO - Elapsed time for task_a request 37/50 was 7.0105s for 15s deadline with response 100
+2024-08-23 19:13:52,009 - INFO - Elapsed time for task_e request 17/50 was 12.3136s for 35s deadline with response 100
+2024-08-23 19:13:53,406 - INFO - task_h request 37/50
+2024-08-23 19:13:54,209 - INFO - Elapsed time for task_c request 37/50 was 6.8104s for 15s deadline with response 100
+2024-08-23 19:13:55,074 - INFO - Elapsed time for task_g request 37/50 was 7.1185s for 15s deadline with response 100
+2024-08-23 19:13:57,611 - INFO - Elapsed time for task_b request 37/50 was 9.0120s for 15s deadline with response 100
+2024-08-23 19:13:57,695 - INFO - Elapsed time for task_i request 37/50 was 8.7144s for 15s deadline with response 100
+2024-08-23 19:13:59,743 - INFO - Elapsed time for task_k request 17/50 was 13.7173s for 35s deadline with response 100
+2024-08-23 19:14:00,417 - INFO - Elapsed time for task_h request 37/50 was 7.0102s for 15s deadline with response 100
+2024-08-23 19:14:04,115 - INFO - Elapsed time for task_l request 17/50 was 15.3244s for 35s deadline with response 100
+2024-08-23 19:14:04,658 - INFO - task_d request 18/50
+2024-08-23 19:14:06,305 - INFO - task_a request 38/50
+2024-08-23 19:14:09,210 - INFO - task_c request 38/50
+2024-08-23 19:14:10,075 - INFO - task_g request 38/50
+2024-08-23 19:14:12,612 - INFO - task_b request 38/50
+2024-08-23 19:14:12,695 - INFO - task_i request 38/50
+2024-08-23 19:14:13,316 - INFO - Elapsed time for task_a request 38/50 was 7.0109s for 15s deadline with response 100
+2024-08-23 19:14:15,418 - INFO - task_h request 38/50
+2024-08-23 19:14:16,122 - INFO - Elapsed time for task_c request 38/50 was 6.9115s for 15s deadline with response 100
+2024-08-23 19:14:16,473 - INFO - Elapsed time for task_d request 18/50 was 11.8146s for 35s deadline with response 100
+2024-08-23 19:14:16,986 - INFO - Elapsed time for task_g request 38/50 was 6.9109s for 15s deadline with response 100
+2024-08-23 19:14:18,473 - INFO - task_f request 18/50
+2024-08-23 19:14:19,424 - INFO - Elapsed time for task_b request 38/50 was 6.8126s for 15s deadline with response 100
+2024-08-23 19:14:19,609 - INFO - Elapsed time for task_i request 38/50 was 6.9136s for 15s deadline with response 100
+2024-08-23 19:14:22,531 - INFO - Elapsed time for task_h request 38/50 was 7.1126s for 15s deadline with response 100
+2024-08-23 19:14:22,807 - INFO - task_j request 18/50
+2024-08-23 19:14:27,009 - INFO - task_e request 18/50
+2024-08-23 19:14:28,317 - INFO - task_a request 39/50
+2024-08-23 19:14:30,292 - INFO - Elapsed time for task_f request 18/50 was 11.8192s for 35s deadline with response 100
+2024-08-23 19:14:31,122 - INFO - task_c request 39/50
+2024-08-23 19:14:31,987 - INFO - task_g request 39/50
+2024-08-23 19:14:34,425 - INFO - task_b request 39/50
+2024-08-23 19:14:34,610 - INFO - task_i request 39/50
+2024-08-23 19:14:34,722 - INFO - Elapsed time for task_j request 18/50 was 11.9147s for 35s deadline with response 100
+2024-08-23 19:14:34,744 - INFO - task_k request 18/50
+2024-08-23 19:14:35,328 - INFO - Elapsed time for task_a request 39/50 was 7.0104s for 15s deadline with response 100
+2024-08-23 19:14:37,531 - INFO - task_h request 39/50
+2024-08-23 19:14:37,934 - INFO - Elapsed time for task_c request 39/50 was 6.8109s for 15s deadline with response 100
+2024-08-23 19:14:38,897 - INFO - Elapsed time for task_g request 39/50 was 6.9099s for 15s deadline with response 100
+2024-08-23 19:14:39,115 - INFO - task_l request 18/50
+2024-08-23 19:14:41,024 - INFO - Elapsed time for task_e request 18/50 was 14.0149s for 35s deadline with response 100
+2024-08-23 19:14:41,436 - INFO - Elapsed time for task_b request 39/50 was 7.0111s for 15s deadline with response 100
+2024-08-23 19:14:41,521 - INFO - Elapsed time for task_i request 39/50 was 6.9112s for 15s deadline with response 100
+2024-08-23 19:14:44,541 - INFO - Elapsed time for task_h request 39/50 was 7.0096s for 15s deadline with response 100
+2024-08-23 19:14:46,959 - INFO - Elapsed time for task_k request 18/50 was 12.2147s for 35s deadline with response 100
+2024-08-23 19:14:50,328 - INFO - task_a request 40/50
+2024-08-23 19:14:51,033 - INFO - Elapsed time for task_l request 18/50 was 11.9171s for 35s deadline with response 100
+2024-08-23 19:14:51,474 - INFO - task_d request 19/50
+2024-08-23 19:14:52,934 - INFO - task_c request 40/50
+2024-08-23 19:14:53,898 - INFO - task_g request 40/50
+2024-08-23 19:14:56,437 - INFO - task_b request 40/50
+2024-08-23 19:14:56,522 - INFO - task_i request 40/50
+2024-08-23 19:14:57,242 - INFO - Elapsed time for task_a request 40/50 was 6.9137s for 15s deadline with response 100
+2024-08-23 19:14:59,541 - INFO - task_h request 40/50
+2024-08-23 19:14:59,949 - INFO - Elapsed time for task_c request 40/50 was 7.0138s for 15s deadline with response 100
+2024-08-23 19:15:00,818 - INFO - Elapsed time for task_g request 40/50 was 6.9202s for 15s deadline with response 100
+2024-08-23 19:15:03,289 - INFO - Elapsed time for task_d request 19/50 was 11.8147s for 35s deadline with response 100
+2024-08-23 19:15:03,448 - INFO - Elapsed time for task_b request 40/50 was 7.0104s for 15s deadline with response 100
+2024-08-23 19:15:03,533 - INFO - Elapsed time for task_i request 40/50 was 7.0104s for 15s deadline with response 100
+2024-08-23 19:15:05,293 - INFO - task_f request 19/50
+2024-08-23 19:15:06,753 - INFO - Elapsed time for task_h request 40/50 was 7.2111s for 15s deadline with response 100
+2024-08-23 19:15:09,723 - INFO - task_j request 19/50
+2024-08-23 19:15:12,243 - INFO - task_a request 41/50
+2024-08-23 19:15:14,950 - INFO - task_c request 41/50
+2024-08-23 19:15:15,819 - INFO - task_g request 41/50
+2024-08-23 19:15:16,026 - INFO - task_e request 19/50
+2024-08-23 19:15:17,110 - INFO - Elapsed time for task_f request 19/50 was 11.8163s for 35s deadline with response 100
+2024-08-23 19:15:18,448 - INFO - task_b request 41/50
+2024-08-23 19:15:18,533 - INFO - task_i request 41/50
+2024-08-23 19:15:19,157 - INFO - Elapsed time for task_a request 41/50 was 6.9133s for 15s deadline with response 100
+2024-08-23 19:15:21,753 - INFO - task_h request 41/50
+2024-08-23 19:15:21,861 - INFO - Elapsed time for task_c request 41/50 was 6.9105s for 15s deadline with response 100
+2024-08-23 19:15:21,960 - INFO - task_k request 19/50
+2024-08-23 19:15:23,031 - INFO - Elapsed time for task_g request 41/50 was 7.2112s for 15s deadline with response 100
+2024-08-23 19:15:24,440 - INFO - Elapsed time for task_j request 19/50 was 14.7166s for 35s deadline with response 100
+2024-08-23 19:15:25,260 - INFO - Elapsed time for task_b request 41/50 was 6.8110s for 15s deadline with response 100
+2024-08-23 19:15:25,544 - INFO - Elapsed time for task_i request 41/50 was 7.0109s for 15s deadline with response 100
+2024-08-23 19:15:26,033 - INFO - task_l request 19/50
+2024-08-23 19:15:28,554 - INFO - Elapsed time for task_e request 19/50 was 12.5277s for 35s deadline with response 100
+2024-08-23 19:15:28,864 - INFO - Elapsed time for task_h request 41/50 was 7.1105s for 15s deadline with response 100
+2024-08-23 19:15:34,158 - INFO - task_a request 42/50
+2024-08-23 19:15:35,075 - INFO - Elapsed time for task_k request 19/50 was 13.1153s for 35s deadline with response 100
+2024-08-23 19:15:36,861 - INFO - task_c request 42/50
+2024-08-23 19:15:38,031 - INFO - task_g request 42/50
+2024-08-23 19:15:38,290 - INFO - task_d request 20/50
+2024-08-23 19:15:39,750 - INFO - Elapsed time for task_l request 19/50 was 13.7165s for 35s deadline with response 100
+2024-08-23 19:15:40,260 - INFO - task_b request 42/50
+2024-08-23 19:15:40,545 - INFO - task_i request 42/50
+2024-08-23 19:15:40,969 - INFO - Elapsed time for task_a request 42/50 was 6.8108s for 15s deadline with response 100
+2024-08-23 19:15:43,771 - INFO - Elapsed time for task_c request 42/50 was 6.9097s for 15s deadline with response 100
+2024-08-23 19:15:43,865 - INFO - task_h request 42/50
+2024-08-23 19:15:45,144 - INFO - Elapsed time for task_g request 42/50 was 7.1129s for 15s deadline with response 100
+2024-08-23 19:15:47,271 - INFO - Elapsed time for task_b request 42/50 was 7.0107s for 15s deadline with response 100
+2024-08-23 19:15:47,557 - INFO - Elapsed time for task_i request 42/50 was 7.0112s for 15s deadline with response 100
+2024-08-23 19:15:50,405 - INFO - Elapsed time for task_d request 20/50 was 12.1148s for 35s deadline with response 100
+2024-08-23 19:15:50,679 - INFO - Elapsed time for task_h request 42/50 was 6.8134s for 15s deadline with response 100
+2024-08-23 19:15:52,110 - INFO - task_f request 20/50
+2024-08-23 19:15:55,969 - INFO - task_a request 43/50
+2024-08-23 19:15:58,772 - INFO - task_c request 43/50
+2024-08-23 19:15:59,441 - INFO - task_j request 20/50
+2024-08-23 19:16:00,145 - INFO - task_g request 43/50
+2024-08-23 19:16:02,272 - INFO - task_b request 43/50
+2024-08-23 19:16:02,558 - INFO - task_i request 43/50
+2024-08-23 19:16:02,880 - INFO - Elapsed time for task_a request 43/50 was 6.9106s for 15s deadline with response 100
+2024-08-23 19:16:03,555 - INFO - task_e request 20/50
+2024-08-23 19:16:03,926 - INFO - Elapsed time for task_f request 20/50 was 11.8153s for 35s deadline with response 100
+2024-08-23 19:16:05,679 - INFO - task_h request 43/50
+2024-08-23 19:16:05,683 - INFO - Elapsed time for task_c request 43/50 was 6.9104s for 15s deadline with response 100
+2024-08-23 19:16:07,155 - INFO - Elapsed time for task_g request 43/50 was 7.0100s for 15s deadline with response 100
+2024-08-23 19:16:09,385 - INFO - Elapsed time for task_b request 43/50 was 7.1125s for 15s deadline with response 100
+2024-08-23 19:16:09,770 - INFO - Elapsed time for task_i request 43/50 was 7.2117s for 15s deadline with response 100
+2024-08-23 19:16:10,076 - INFO - task_k request 20/50
+2024-08-23 19:16:11,758 - INFO - Elapsed time for task_j request 20/50 was 12.3169s for 35s deadline with response 100
+2024-08-23 19:16:12,990 - INFO - Elapsed time for task_h request 43/50 was 7.3109s for 15s deadline with response 100
+2024-08-23 19:16:14,752 - INFO - task_l request 20/50
+2024-08-23 19:16:15,873 - INFO - Elapsed time for task_e request 20/50 was 12.3178s for 35s deadline with response 100
+2024-08-23 19:16:17,881 - INFO - task_a request 44/50
+2024-08-23 19:16:20,684 - INFO - task_c request 44/50
+2024-08-23 19:16:22,157 - INFO - task_g request 44/50
+2024-08-23 19:16:22,891 - INFO - Elapsed time for task_k request 20/50 was 12.8144s for 35s deadline with response 100
+2024-08-23 19:16:24,385 - INFO - task_b request 44/50
+2024-08-23 19:16:24,770 - INFO - task_i request 44/50
+2024-08-23 19:16:24,792 - INFO - Elapsed time for task_a request 44/50 was 6.9107s for 15s deadline with response 100
+2024-08-23 19:16:25,405 - INFO - task_d request 21/50
+2024-08-23 19:16:26,666 - INFO - Elapsed time for task_l request 20/50 was 11.9145s for 35s deadline with response 100
+2024-08-23 19:16:27,594 - INFO - Elapsed time for task_c request 44/50 was 6.9098s for 15s deadline with response 100
+2024-08-23 19:16:27,991 - INFO - task_h request 44/50
+2024-08-23 19:16:29,169 - INFO - Elapsed time for task_g request 44/50 was 7.0117s for 15s deadline with response 100
+2024-08-23 19:16:31,396 - INFO - Elapsed time for task_b request 44/50 was 7.0109s for 15s deadline with response 100
+2024-08-23 19:16:31,782 - INFO - Elapsed time for task_i request 44/50 was 7.0109s for 15s deadline with response 100
+2024-08-23 19:16:35,006 - INFO - Elapsed time for task_h request 44/50 was 7.0142s for 15s deadline with response 100
+2024-08-23 19:16:37,321 - INFO - Elapsed time for task_d request 21/50 was 11.9160s for 35s deadline with response 100
+2024-08-23 19:16:38,927 - INFO - task_f request 21/50
+2024-08-23 19:16:39,792 - INFO - task_a request 45/50
+2024-08-23 19:16:42,596 - INFO - task_c request 45/50
+2024-08-23 19:16:44,169 - INFO - task_g request 45/50
+2024-08-23 19:16:46,397 - INFO - task_b request 45/50
+2024-08-23 19:16:46,703 - INFO - Elapsed time for task_a request 45/50 was 6.9107s for 15s deadline with response 100
+2024-08-23 19:16:46,758 - INFO - task_j request 21/50
+2024-08-23 19:16:46,782 - INFO - task_i request 45/50
+2024-08-23 19:16:49,807 - INFO - Elapsed time for task_c request 45/50 was 7.2106s for 15s deadline with response 100
+2024-08-23 19:16:50,006 - INFO - task_h request 45/50
+2024-08-23 19:16:50,873 - INFO - task_e request 21/50
+2024-08-23 19:16:51,042 - INFO - Elapsed time for task_f request 21/50 was 12.1149s for 35s deadline with response 100
+2024-08-23 19:16:51,179 - INFO - Elapsed time for task_g request 45/50 was 7.0097s for 15s deadline with response 100
+2024-08-23 19:16:53,408 - INFO - Elapsed time for task_b request 45/50 was 7.0107s for 15s deadline with response 100
+2024-08-23 19:16:54,093 - INFO - Elapsed time for task_i request 45/50 was 7.3107s for 15s deadline with response 100
+2024-08-23 19:16:56,923 - INFO - Elapsed time for task_h request 45/50 was 6.9166s for 15s deadline with response 100
+2024-08-23 19:16:57,892 - INFO - task_k request 21/50
+2024-08-23 19:16:59,074 - INFO - Elapsed time for task_j request 21/50 was 12.3152s for 35s deadline with response 100
+2024-08-23 19:17:01,667 - INFO - task_l request 21/50
+2024-08-23 19:17:01,705 - INFO - task_a request 46/50
+2024-08-23 19:17:02,994 - INFO - Elapsed time for task_e request 21/50 was 12.1207s for 35s deadline with response 100
+2024-08-23 19:17:04,807 - INFO - task_c request 46/50
+2024-08-23 19:17:06,180 - INFO - task_g request 46/50
+2024-08-23 19:17:08,409 - INFO - task_b request 46/50
+2024-08-23 19:17:08,916 - INFO - Elapsed time for task_a request 46/50 was 7.2107s for 15s deadline with response 100
+2024-08-23 19:17:09,094 - INFO - task_i request 46/50
+2024-08-23 19:17:09,705 - INFO - Elapsed time for task_k request 21/50 was 11.8134s for 35s deadline with response 100
+2024-08-23 19:17:11,718 - INFO - Elapsed time for task_c request 46/50 was 6.9100s for 15s deadline with response 100
+2024-08-23 19:17:11,924 - INFO - task_h request 46/50
+2024-08-23 19:17:12,322 - INFO - task_d request 22/50
+2024-08-23 19:17:13,090 - INFO - Elapsed time for task_g request 46/50 was 6.9101s for 15s deadline with response 100
+2024-08-23 19:17:13,995 - INFO - Elapsed time for task_l request 21/50 was 12.3273s for 35s deadline with response 100
+2024-08-23 19:17:15,220 - INFO - Elapsed time for task_b request 46/50 was 6.8107s for 15s deadline with response 100
+2024-08-23 19:17:16,004 - INFO - Elapsed time for task_i request 46/50 was 6.9105s for 15s deadline with response 100
+2024-08-23 19:17:19,035 - INFO - Elapsed time for task_h request 46/50 was 7.1108s for 15s deadline with response 100
+2024-08-23 19:17:23,917 - INFO - task_a request 47/50
+2024-08-23 19:17:24,337 - INFO - Elapsed time for task_d request 22/50 was 12.0150s for 35s deadline with response 100
+2024-08-23 19:17:26,043 - INFO - task_f request 22/50
+2024-08-23 19:17:26,718 - INFO - task_c request 47/50
+2024-08-23 19:17:28,091 - INFO - task_g request 47/50
+2024-08-23 19:17:30,221 - INFO - task_b request 47/50
+2024-08-23 19:17:30,930 - INFO - Elapsed time for task_a request 47/50 was 7.0127s for 15s deadline with response 100
+2024-08-23 19:17:31,005 - INFO - task_i request 47/50
+2024-08-23 19:17:33,628 - INFO - Elapsed time for task_c request 47/50 was 6.9096s for 15s deadline with response 100
+2024-08-23 19:17:34,036 - INFO - task_h request 47/50
+2024-08-23 19:17:34,075 - INFO - task_j request 22/50
+2024-08-23 19:17:35,001 - INFO - Elapsed time for task_g request 47/50 was 6.9106s for 15s deadline with response 100
+2024-08-23 19:17:37,137 - INFO - Elapsed time for task_b request 47/50 was 6.9162s for 15s deadline with response 100
+2024-08-23 19:17:37,858 - INFO - Elapsed time for task_f request 22/50 was 11.8146s for 35s deadline with response 100
+2024-08-23 19:17:37,995 - INFO - task_e request 22/50
+2024-08-23 19:17:38,016 - INFO - Elapsed time for task_i request 47/50 was 7.0111s for 15s deadline with response 100
+2024-08-23 19:17:40,846 - INFO - Elapsed time for task_h request 47/50 was 6.8104s for 15s deadline with response 100
+2024-08-23 19:17:44,706 - INFO - task_k request 22/50
+2024-08-23 19:17:45,931 - INFO - task_a request 48/50
+2024-08-23 19:17:45,990 - INFO - Elapsed time for task_j request 22/50 was 11.9152s for 35s deadline with response 100
+2024-08-23 19:17:48,629 - INFO - task_c request 48/50
+2024-08-23 19:17:48,995 - INFO - task_l request 22/50
+2024-08-23 19:17:49,810 - INFO - Elapsed time for task_e request 22/50 was 11.8146s for 35s deadline with response 100
+2024-08-23 19:17:50,002 - INFO - task_g request 48/50
+2024-08-23 19:17:52,138 - INFO - task_b request 48/50
+2024-08-23 19:17:52,943 - INFO - Elapsed time for task_a request 48/50 was 7.0116s for 15s deadline with response 100
+2024-08-23 19:17:53,017 - INFO - task_i request 48/50
+2024-08-23 19:17:55,644 - INFO - Elapsed time for task_c request 48/50 was 7.0148s for 15s deadline with response 100
+2024-08-23 19:17:55,847 - INFO - task_h request 48/50
+2024-08-23 19:17:56,620 - INFO - Elapsed time for task_k request 22/50 was 11.9138s for 35s deadline with response 100
+2024-08-23 19:17:56,912 - INFO - Elapsed time for task_g request 48/50 was 6.9097s for 15s deadline with response 100
+2024-08-23 19:17:59,049 - INFO - Elapsed time for task_b request 48/50 was 6.9108s for 15s deadline with response 100
+2024-08-23 19:17:59,338 - INFO - task_d request 23/50
+2024-08-23 19:18:00,128 - INFO - Elapsed time for task_i request 48/50 was 7.1108s for 15s deadline with response 100
+2024-08-23 19:18:00,813 - INFO - Elapsed time for task_l request 22/50 was 11.8179s for 35s deadline with response 100
+2024-08-23 19:18:02,959 - INFO - Elapsed time for task_h request 48/50 was 7.1120s for 15s deadline with response 100
+2024-08-23 19:18:07,944 - INFO - task_a request 49/50
+2024-08-23 19:18:10,644 - INFO - task_c request 49/50
+2024-08-23 19:18:11,359 - INFO - Elapsed time for task_d request 23/50 was 12.0207s for 35s deadline with response 100
+2024-08-23 19:18:11,912 - INFO - task_g request 49/50
+2024-08-23 19:18:12,859 - INFO - task_f request 23/50
+2024-08-23 19:18:14,049 - INFO - task_b request 49/50
+2024-08-23 19:18:14,862 - INFO - Elapsed time for task_a request 49/50 was 6.9179s for 15s deadline with response 100
+2024-08-23 19:18:15,129 - INFO - task_i request 49/50
+2024-08-23 19:18:17,455 - INFO - Elapsed time for task_c request 49/50 was 6.8108s for 15s deadline with response 100
+2024-08-23 19:18:17,960 - INFO - task_h request 49/50
+2024-08-23 19:18:18,924 - INFO - Elapsed time for task_g request 49/50 was 7.0109s for 15s deadline with response 100
+2024-08-23 19:18:20,960 - INFO - Elapsed time for task_b request 49/50 was 6.9100s for 15s deadline with response 100
+2024-08-23 19:18:20,991 - INFO - task_j request 23/50
+2024-08-23 19:18:22,140 - INFO - Elapsed time for task_i request 49/50 was 7.0110s for 15s deadline with response 100
+2024-08-23 19:18:24,771 - INFO - Elapsed time for task_h request 49/50 was 6.8108s for 15s deadline with response 100
+2024-08-23 19:18:24,811 - INFO - task_e request 23/50
+2024-08-23 19:18:24,873 - INFO - Elapsed time for task_f request 23/50 was 12.0145s for 35s deadline with response 100
+2024-08-23 19:18:29,862 - INFO - task_a request 50/50
+2024-08-23 19:18:31,621 - INFO - task_k request 23/50
+2024-08-23 19:18:32,456 - INFO - task_c request 50/50
+2024-08-23 19:18:32,906 - INFO - Elapsed time for task_j request 23/50 was 11.9151s for 35s deadline with response 100
+2024-08-23 19:18:33,924 - INFO - task_g request 50/50
+2024-08-23 19:18:35,814 - INFO - task_l request 23/50
+2024-08-23 19:18:35,960 - INFO - task_b request 50/50
+2024-08-23 19:18:36,673 - INFO - Elapsed time for task_a request 50/50 was 6.8107s for 15s deadline with response 100
+2024-08-23 19:18:37,141 - INFO - task_i request 50/50
+2024-08-23 19:18:38,127 - INFO - Elapsed time for task_e request 23/50 was 13.3160s for 35s deadline with response 100
+2024-08-23 19:18:39,370 - INFO - Elapsed time for task_c request 50/50 was 6.9135s for 15s deadline with response 100
+2024-08-23 19:18:39,772 - INFO - task_h request 50/50
+2024-08-23 19:18:40,838 - INFO - Elapsed time for task_g request 50/50 was 6.9134s for 15s deadline with response 100
+2024-08-23 19:18:43,071 - INFO - Elapsed time for task_b request 50/50 was 7.1102s for 15s deadline with response 100
+2024-08-23 19:18:43,951 - INFO - Elapsed time for task_i request 50/50 was 6.8104s for 15s deadline with response 100
+2024-08-23 19:18:44,339 - INFO - Elapsed time for task_k request 23/50 was 12.7176s for 35s deadline with response 100
+2024-08-23 19:18:46,360 - INFO - task_d request 24/50
+2024-08-23 19:18:46,983 - INFO - Elapsed time for task_h request 50/50 was 7.2107s for 15s deadline with response 100
+2024-08-23 19:18:48,029 - INFO - Elapsed time for task_l request 23/50 was 12.2145s for 35s deadline with response 100
+2024-08-23 19:18:58,175 - INFO - Elapsed time for task_d request 24/50 was 11.8150s for 35s deadline with response 100
+2024-08-23 19:18:59,874 - INFO - task_f request 24/50
+2024-08-23 19:19:07,907 - INFO - task_j request 24/50
+2024-08-23 19:19:11,790 - INFO - Elapsed time for task_f request 24/50 was 11.9157s for 35s deadline with response 100
+2024-08-23 19:19:13,127 - INFO - task_e request 24/50
+2024-08-23 19:19:19,339 - INFO - task_k request 24/50
+2024-08-23 19:19:19,822 - INFO - Elapsed time for task_j request 24/50 was 11.9147s for 35s deadline with response 100
+2024-08-23 19:19:23,030 - INFO - task_l request 24/50
+2024-08-23 19:19:25,043 - INFO - Elapsed time for task_e request 24/50 was 11.9155s for 35s deadline with response 100
+2024-08-23 19:19:31,253 - INFO - Elapsed time for task_k request 24/50 was 11.9134s for 35s deadline with response 100
+2024-08-23 19:19:33,176 - INFO - task_d request 25/50
+2024-08-23 19:19:36,047 - INFO - Elapsed time for task_l request 24/50 was 13.0165s for 35s deadline with response 100
+2024-08-23 19:19:44,990 - INFO - Elapsed time for task_d request 25/50 was 11.8143s for 35s deadline with response 100
+2024-08-23 19:19:46,791 - INFO - task_f request 25/50
+2024-08-23 19:19:54,823 - INFO - task_j request 25/50
+2024-08-23 19:19:58,606 - INFO - Elapsed time for task_f request 25/50 was 11.8150s for 35s deadline with response 100
+2024-08-23 19:20:00,044 - INFO - task_e request 25/50
+2024-08-23 19:20:06,254 - INFO - task_k request 25/50
+2024-08-23 19:20:06,738 - INFO - Elapsed time for task_j request 25/50 was 11.9144s for 35s deadline with response 100
+2024-08-23 19:20:11,048 - INFO - task_l request 25/50
+2024-08-23 19:20:11,859 - INFO - Elapsed time for task_e request 25/50 was 11.8150s for 35s deadline with response 100
+2024-08-23 19:20:18,168 - INFO - Elapsed time for task_k request 25/50 was 11.9140s for 35s deadline with response 100
+2024-08-23 19:20:19,991 - INFO - task_d request 26/50
+2024-08-23 19:20:22,969 - INFO - Elapsed time for task_l request 25/50 was 11.9209s for 35s deadline with response 100
+2024-08-23 19:20:31,805 - INFO - Elapsed time for task_d request 26/50 was 11.8145s for 35s deadline with response 100
+2024-08-23 19:20:33,606 - INFO - task_f request 26/50
+2024-08-23 19:20:41,739 - INFO - task_j request 26/50
+2024-08-23 19:20:45,421 - INFO - Elapsed time for task_f request 26/50 was 11.8149s for 35s deadline with response 100
+2024-08-23 19:20:46,859 - INFO - task_e request 26/50
+2024-08-23 19:20:53,168 - INFO - task_k request 26/50
+2024-08-23 19:20:53,654 - INFO - Elapsed time for task_j request 26/50 was 11.9153s for 35s deadline with response 100
+2024-08-23 19:20:57,970 - INFO - task_l request 26/50
+2024-08-23 19:20:58,776 - INFO - Elapsed time for task_e request 26/50 was 11.9164s for 35s deadline with response 100
+2024-08-23 19:21:05,083 - INFO - Elapsed time for task_k request 26/50 was 11.9139s for 35s deadline with response 100
+2024-08-23 19:21:06,806 - INFO - task_d request 27/50
+2024-08-23 19:21:09,984 - INFO - Elapsed time for task_l request 26/50 was 12.0145s for 35s deadline with response 100
+2024-08-23 19:21:18,621 - INFO - Elapsed time for task_d request 27/50 was 11.8149s for 35s deadline with response 100
+2024-08-23 19:21:20,422 - INFO - task_f request 27/50
+2024-08-23 19:21:28,655 - INFO - task_j request 27/50
+2024-08-23 19:21:32,337 - INFO - Elapsed time for task_f request 27/50 was 11.9149s for 35s deadline with response 100
+2024-08-23 19:21:33,777 - INFO - task_e request 27/50
+2024-08-23 19:21:40,083 - INFO - task_k request 27/50
+2024-08-23 19:21:40,576 - INFO - Elapsed time for task_j request 27/50 was 11.9205s for 35s deadline with response 100
+2024-08-23 19:21:44,986 - INFO - task_l request 27/50
+2024-08-23 19:21:45,591 - INFO - Elapsed time for task_e request 27/50 was 11.8140s for 35s deadline with response 100
+2024-08-23 19:21:51,997 - INFO - Elapsed time for task_k request 27/50 was 11.9136s for 35s deadline with response 100
+2024-08-23 19:21:53,622 - INFO - task_d request 28/50
+2024-08-23 19:21:56,801 - INFO - Elapsed time for task_l request 27/50 was 11.8148s for 35s deadline with response 100
+2024-08-23 19:22:05,539 - INFO - Elapsed time for task_d request 28/50 was 11.9164s for 35s deadline with response 100
+2024-08-23 19:22:07,338 - INFO - task_f request 28/50
+2024-08-23 19:22:15,576 - INFO - task_j request 28/50
+2024-08-23 19:22:19,153 - INFO - Elapsed time for task_f request 28/50 was 11.8153s for 35s deadline with response 100
+2024-08-23 19:22:20,592 - INFO - task_e request 28/50
+2024-08-23 19:22:26,997 - INFO - task_k request 28/50
+2024-08-23 19:22:29,093 - INFO - Elapsed time for task_j request 28/50 was 13.5164s for 35s deadline with response 100
+2024-08-23 19:22:31,801 - INFO - task_l request 28/50
+2024-08-23 19:22:32,506 - INFO - Elapsed time for task_e request 28/50 was 11.9143s for 35s deadline with response 100
+2024-08-23 19:22:38,912 - INFO - Elapsed time for task_k request 28/50 was 11.9145s for 35s deadline with response 100
+2024-08-23 19:22:40,539 - INFO - task_d request 29/50
+2024-08-23 19:22:43,816 - INFO - Elapsed time for task_l request 28/50 was 12.0146s for 35s deadline with response 100
+2024-08-23 19:22:52,564 - INFO - Elapsed time for task_d request 29/50 was 12.0247s for 35s deadline with response 100
+2024-08-23 19:22:54,154 - INFO - task_f request 29/50
+2024-08-23 19:23:04,094 - INFO - task_j request 29/50
+2024-08-23 19:23:05,969 - INFO - Elapsed time for task_f request 29/50 was 11.8152s for 35s deadline with response 100
+2024-08-23 19:23:07,507 - INFO - task_e request 29/50
+2024-08-23 19:23:13,913 - INFO - task_k request 29/50
+2024-08-23 19:23:16,109 - INFO - Elapsed time for task_j request 29/50 was 12.0151s for 35s deadline with response 100
+2024-08-23 19:23:18,817 - INFO - task_l request 29/50
+2024-08-23 19:23:19,421 - INFO - Elapsed time for task_e request 29/50 was 11.9137s for 35s deadline with response 100
+2024-08-23 19:23:25,829 - INFO - Elapsed time for task_k request 29/50 was 11.9156s for 35s deadline with response 100
+2024-08-23 19:23:27,565 - INFO - task_d request 30/50
+2024-08-23 19:23:30,832 - INFO - Elapsed time for task_l request 29/50 was 12.0145s for 35s deadline with response 100
+2024-08-23 19:23:39,380 - INFO - Elapsed time for task_d request 30/50 was 11.8144s for 35s deadline with response 100
+2024-08-23 19:23:40,970 - INFO - task_f request 30/50
+2024-08-23 19:23:51,110 - INFO - task_j request 30/50
+2024-08-23 19:23:52,785 - INFO - Elapsed time for task_f request 30/50 was 11.8151s for 35s deadline with response 100
+2024-08-23 19:23:54,421 - INFO - task_e request 30/50
+2024-08-23 19:24:00,829 - INFO - task_k request 30/50
+2024-08-23 19:24:03,027 - INFO - Elapsed time for task_j request 30/50 was 11.9169s for 35s deadline with response 100
+2024-08-23 19:24:05,832 - INFO - task_l request 30/50
+2024-08-23 19:24:06,336 - INFO - Elapsed time for task_e request 30/50 was 11.9146s for 35s deadline with response 100
+2024-08-23 19:24:12,744 - INFO - Elapsed time for task_k request 30/50 was 11.9145s for 35s deadline with response 100
+2024-08-23 19:24:14,381 - INFO - task_d request 31/50
+2024-08-23 19:24:17,848 - INFO - Elapsed time for task_l request 30/50 was 12.0153s for 35s deadline with response 100
+2024-08-23 19:24:26,197 - INFO - Elapsed time for task_d request 31/50 was 11.8161s for 35s deadline with response 100
+2024-08-23 19:24:27,786 - INFO - task_f request 31/50
+2024-08-23 19:24:38,027 - INFO - task_j request 31/50
+2024-08-23 19:24:39,601 - INFO - Elapsed time for task_f request 31/50 was 11.8151s for 35s deadline with response 100
+2024-08-23 19:24:41,337 - INFO - task_e request 31/50
+2024-08-23 19:24:47,745 - INFO - task_k request 31/50
+2024-08-23 19:24:50,043 - INFO - Elapsed time for task_j request 31/50 was 12.0155s for 35s deadline with response 100
+2024-08-23 19:24:52,848 - INFO - task_l request 31/50
+2024-08-23 19:24:53,151 - INFO - Elapsed time for task_e request 31/50 was 11.8142s for 35s deadline with response 100
+2024-08-23 19:24:59,660 - INFO - Elapsed time for task_k request 31/50 was 11.9148s for 35s deadline with response 100
+2024-08-23 19:25:01,198 - INFO - task_d request 32/50
+2024-08-23 19:25:05,164 - INFO - Elapsed time for task_l request 31/50 was 12.3159s for 35s deadline with response 100
+2024-08-23 19:25:13,018 - INFO - Elapsed time for task_d request 32/50 was 11.8190s for 35s deadline with response 100
+2024-08-23 19:25:14,602 - INFO - task_f request 32/50
+2024-08-23 19:25:25,044 - INFO - task_j request 32/50
+2024-08-23 19:25:26,420 - INFO - Elapsed time for task_f request 32/50 was 11.8181s for 35s deadline with response 100
+2024-08-23 19:25:28,152 - INFO - task_e request 32/50
+2024-08-23 19:25:34,660 - INFO - task_k request 32/50
+2024-08-23 19:25:37,059 - INFO - Elapsed time for task_j request 32/50 was 12.0148s for 35s deadline with response 100
+2024-08-23 19:25:39,967 - INFO - Elapsed time for task_e request 32/50 was 11.8146s for 35s deadline with response 100
+2024-08-23 19:25:40,165 - INFO - task_l request 32/50
+2024-08-23 19:25:46,579 - INFO - Elapsed time for task_k request 32/50 was 11.9179s for 35s deadline with response 100
+2024-08-23 19:25:48,018 - INFO - task_d request 33/50
+2024-08-23 19:25:52,181 - INFO - Elapsed time for task_l request 32/50 was 12.0156s for 35s deadline with response 100
+2024-08-23 19:25:59,942 - INFO - Elapsed time for task_d request 33/50 was 11.9232s for 35s deadline with response 100
+2024-08-23 19:26:01,421 - INFO - task_f request 33/50
+2024-08-23 19:26:12,059 - INFO - task_j request 33/50
+2024-08-23 19:26:13,240 - INFO - Elapsed time for task_f request 33/50 was 11.8191s for 35s deadline with response 100
+2024-08-23 19:26:14,967 - INFO - task_e request 33/50
+2024-08-23 19:26:21,579 - INFO - task_k request 33/50
+2024-08-23 19:26:23,975 - INFO - Elapsed time for task_j request 33/50 was 11.9153s for 35s deadline with response 100
+2024-08-23 19:26:26,790 - INFO - Elapsed time for task_e request 33/50 was 11.8225s for 35s deadline with response 100
+2024-08-23 19:26:27,181 - INFO - task_l request 33/50
+2024-08-23 19:26:33,495 - INFO - Elapsed time for task_k request 33/50 was 11.9155s for 35s deadline with response 100
+2024-08-23 19:26:34,942 - INFO - task_d request 34/50
+2024-08-23 19:26:39,096 - INFO - Elapsed time for task_l request 33/50 was 11.9143s for 35s deadline with response 100
+2024-08-23 19:26:46,758 - INFO - Elapsed time for task_d request 34/50 was 11.8151s for 35s deadline with response 100
+2024-08-23 19:26:48,241 - INFO - task_f request 34/50
+2024-08-23 19:26:58,976 - INFO - task_j request 34/50
+2024-08-23 19:27:00,056 - INFO - Elapsed time for task_f request 34/50 was 11.8150s for 35s deadline with response 100
+2024-08-23 19:27:01,791 - INFO - task_e request 34/50
+2024-08-23 19:27:08,495 - INFO - task_k request 34/50
+2024-08-23 19:27:10,991 - INFO - Elapsed time for task_j request 34/50 was 12.0155s for 35s deadline with response 100
+2024-08-23 19:27:13,705 - INFO - Elapsed time for task_e request 34/50 was 11.9139s for 35s deadline with response 100
+2024-08-23 19:27:14,097 - INFO - task_l request 34/50
+2024-08-23 19:27:20,409 - INFO - Elapsed time for task_k request 34/50 was 11.9134s for 35s deadline with response 100
+2024-08-23 19:27:21,758 - INFO - task_d request 35/50
+2024-08-23 19:27:26,012 - INFO - Elapsed time for task_l request 34/50 was 11.9145s for 35s deadline with response 100
+2024-08-23 19:27:33,574 - INFO - Elapsed time for task_d request 35/50 was 11.8148s for 35s deadline with response 100
+2024-08-23 19:27:35,057 - INFO - task_f request 35/50
+2024-08-23 19:27:45,992 - INFO - task_j request 35/50
+2024-08-23 19:27:47,173 - INFO - Elapsed time for task_f request 35/50 was 12.1155s for 35s deadline with response 100
+2024-08-23 19:27:48,705 - INFO - task_e request 35/50
+2024-08-23 19:27:55,410 - INFO - task_k request 35/50
+2024-08-23 19:27:58,611 - INFO - Elapsed time for task_j request 35/50 was 12.6183s for 35s deadline with response 100
+2024-08-23 19:28:00,819 - INFO - Elapsed time for task_e request 35/50 was 12.1138s for 35s deadline with response 100
+2024-08-23 19:28:01,013 - INFO - task_l request 35/50
+2024-08-23 19:28:07,423 - INFO - Elapsed time for task_k request 35/50 was 12.0137s for 35s deadline with response 100
+2024-08-23 19:28:08,574 - INFO - task_d request 36/50
+2024-08-23 19:28:13,028 - INFO - Elapsed time for task_l request 35/50 was 12.0149s for 35s deadline with response 100
+2024-08-23 19:28:20,589 - INFO - Elapsed time for task_d request 36/50 was 12.0146s for 35s deadline with response 100
+2024-08-23 19:28:22,174 - INFO - task_f request 36/50
+2024-08-23 19:28:33,611 - INFO - task_j request 36/50
+2024-08-23 19:28:33,989 - INFO - Elapsed time for task_f request 36/50 was 11.8154s for 35s deadline with response 100
+2024-08-23 19:28:35,820 - INFO - task_e request 36/50
+2024-08-23 19:28:42,424 - INFO - task_k request 36/50
+2024-08-23 19:28:45,526 - INFO - Elapsed time for task_j request 36/50 was 11.9149s for 35s deadline with response 100
+2024-08-23 19:28:47,635 - INFO - Elapsed time for task_e request 36/50 was 11.8151s for 35s deadline with response 100
+2024-08-23 19:28:48,028 - INFO - task_l request 36/50
+2024-08-23 19:28:54,338 - INFO - Elapsed time for task_k request 36/50 was 11.9142s for 35s deadline with response 100
+2024-08-23 19:28:55,590 - INFO - task_d request 37/50
+2024-08-23 19:28:59,943 - INFO - Elapsed time for task_l request 36/50 was 11.9145s for 35s deadline with response 100
+2024-08-23 19:29:07,405 - INFO - Elapsed time for task_d request 37/50 was 11.8152s for 35s deadline with response 100
+2024-08-23 19:29:08,990 - INFO - task_f request 37/50
+2024-08-23 19:29:20,527 - INFO - task_j request 37/50
+2024-08-23 19:29:20,812 - INFO - Elapsed time for task_f request 37/50 was 11.8214s for 35s deadline with response 100
+2024-08-23 19:29:22,636 - INFO - task_e request 37/50
+2024-08-23 19:29:29,339 - INFO - task_k request 37/50
+2024-08-23 19:29:32,543 - INFO - Elapsed time for task_j request 37/50 was 12.0153s for 35s deadline with response 100
+2024-08-23 19:29:34,450 - INFO - Elapsed time for task_e request 37/50 was 11.8140s for 35s deadline with response 100
+2024-08-23 19:29:34,944 - INFO - task_l request 37/50
+2024-08-23 19:29:41,354 - INFO - Elapsed time for task_k request 37/50 was 12.0145s for 35s deadline with response 100
+2024-08-23 19:29:42,406 - INFO - task_d request 38/50
+2024-08-23 19:29:46,858 - INFO - Elapsed time for task_l request 37/50 was 11.9144s for 35s deadline with response 100
+2024-08-23 19:29:54,220 - INFO - Elapsed time for task_d request 38/50 was 11.8140s for 35s deadline with response 100
+2024-08-23 19:29:55,813 - INFO - task_f request 38/50
+2024-08-23 19:30:07,544 - INFO - task_j request 38/50
+2024-08-23 19:30:07,628 - INFO - Elapsed time for task_f request 38/50 was 11.8150s for 35s deadline with response 100
+2024-08-23 19:30:09,451 - INFO - task_e request 38/50
+2024-08-23 19:30:16,354 - INFO - task_k request 38/50
+2024-08-23 19:30:19,459 - INFO - Elapsed time for task_j request 38/50 was 11.9151s for 35s deadline with response 100
+2024-08-23 19:30:21,264 - INFO - Elapsed time for task_e request 38/50 was 11.8133s for 35s deadline with response 100
+2024-08-23 19:30:21,859 - INFO - task_l request 38/50
+2024-08-23 19:30:28,269 - INFO - Elapsed time for task_k request 38/50 was 11.9146s for 35s deadline with response 100
+2024-08-23 19:30:29,222 - INFO - task_d request 39/50
+2024-08-23 19:30:33,774 - INFO - Elapsed time for task_l request 38/50 was 11.9147s for 35s deadline with response 100
+2024-08-23 19:30:41,138 - INFO - Elapsed time for task_d request 39/50 was 11.9153s for 35s deadline with response 100
+2024-08-23 19:30:42,628 - INFO - task_f request 39/50
+2024-08-23 19:30:54,444 - INFO - Elapsed time for task_f request 39/50 was 11.8148s for 35s deadline with response 100
+2024-08-23 19:30:54,459 - INFO - task_j request 39/50
+2024-08-23 19:30:56,265 - INFO - task_e request 39/50
+2024-08-23 19:31:03,270 - INFO - task_k request 39/50
+2024-08-23 19:31:06,275 - INFO - Elapsed time for task_j request 39/50 was 11.8153s for 35s deadline with response 100
+2024-08-23 19:31:08,179 - INFO - Elapsed time for task_e request 39/50 was 11.9137s for 35s deadline with response 100
+2024-08-23 19:31:08,774 - INFO - task_l request 39/50
+2024-08-23 19:31:15,184 - INFO - Elapsed time for task_k request 39/50 was 11.9142s for 35s deadline with response 100
+2024-08-23 19:31:16,139 - INFO - task_d request 40/50
+2024-08-23 19:31:20,689 - INFO - Elapsed time for task_l request 39/50 was 11.9142s for 35s deadline with response 100
+2024-08-23 19:31:27,954 - INFO - Elapsed time for task_d request 40/50 was 11.8146s for 35s deadline with response 100
+2024-08-23 19:31:29,444 - INFO - task_f request 40/50
+2024-08-23 19:31:41,276 - INFO - task_j request 40/50
+2024-08-23 19:31:41,359 - INFO - Elapsed time for task_f request 40/50 was 11.9149s for 35s deadline with response 100
+2024-08-23 19:31:43,180 - INFO - task_e request 40/50
+2024-08-23 19:31:50,185 - INFO - task_k request 40/50
+2024-08-23 19:31:53,094 - INFO - Elapsed time for task_j request 40/50 was 11.8178s for 35s deadline with response 100
+2024-08-23 19:31:55,094 - INFO - Elapsed time for task_e request 40/50 was 11.9147s for 35s deadline with response 100
+2024-08-23 19:31:55,689 - INFO - task_l request 40/50
+2024-08-23 19:32:02,300 - INFO - Elapsed time for task_k request 40/50 was 12.1149s for 35s deadline with response 100
+2024-08-23 19:32:02,955 - INFO - task_d request 41/50
+2024-08-23 19:32:07,606 - INFO - Elapsed time for task_l request 40/50 was 11.9164s for 35s deadline with response 100
+2024-08-23 19:32:14,770 - INFO - Elapsed time for task_d request 41/50 was 11.8151s for 35s deadline with response 100
+2024-08-23 19:32:16,360 - INFO - task_f request 41/50
+2024-08-23 19:32:28,094 - INFO - task_j request 41/50
+2024-08-23 19:32:28,180 - INFO - Elapsed time for task_f request 41/50 was 11.8200s for 35s deadline with response 100
+2024-08-23 19:32:30,095 - INFO - task_e request 41/50
+2024-08-23 19:32:37,301 - INFO - task_k request 41/50
+2024-08-23 19:32:40,108 - INFO - Elapsed time for task_j request 41/50 was 12.0137s for 35s deadline with response 100
+2024-08-23 19:32:41,914 - INFO - Elapsed time for task_e request 41/50 was 11.8189s for 35s deadline with response 100
+2024-08-23 19:32:42,607 - INFO - task_l request 41/50
+2024-08-23 19:32:49,219 - INFO - Elapsed time for task_k request 41/50 was 11.9178s for 35s deadline with response 100
+2024-08-23 19:32:49,771 - INFO - task_d request 42/50
+2024-08-23 19:32:54,522 - INFO - Elapsed time for task_l request 41/50 was 11.9152s for 35s deadline with response 100
+2024-08-23 19:33:01,586 - INFO - Elapsed time for task_d request 42/50 was 11.8151s for 35s deadline with response 100
+2024-08-23 19:33:03,181 - INFO - task_f request 42/50
+2024-08-23 19:33:14,996 - INFO - Elapsed time for task_f request 42/50 was 11.8153s for 35s deadline with response 100
+2024-08-23 19:33:15,109 - INFO - task_j request 42/50
+2024-08-23 19:33:16,915 - INFO - task_e request 42/50
+2024-08-23 19:33:24,219 - INFO - task_k request 42/50
+2024-08-23 19:33:26,929 - INFO - Elapsed time for task_j request 42/50 was 11.8195s for 35s deadline with response 100
+2024-08-23 19:33:28,830 - INFO - Elapsed time for task_e request 42/50 was 11.9147s for 35s deadline with response 100
+2024-08-23 19:33:29,523 - INFO - task_l request 42/50
+2024-08-23 19:33:36,136 - INFO - Elapsed time for task_k request 42/50 was 11.9162s for 35s deadline with response 100
+2024-08-23 19:33:36,586 - INFO - task_d request 43/50
+2024-08-23 19:33:41,738 - INFO - Elapsed time for task_l request 42/50 was 12.2151s for 35s deadline with response 100
+2024-08-23 19:33:48,507 - INFO - Elapsed time for task_d request 43/50 was 11.9203s for 35s deadline with response 100
+2024-08-23 19:33:49,997 - INFO - task_f request 43/50
+2024-08-23 19:34:01,812 - INFO - Elapsed time for task_f request 43/50 was 11.8145s for 35s deadline with response 100
+2024-08-23 19:34:01,929 - INFO - task_j request 43/50
+2024-08-23 19:34:03,832 - INFO - task_e request 43/50
+2024-08-23 19:34:11,136 - INFO - task_k request 43/50
+2024-08-23 19:34:13,744 - INFO - Elapsed time for task_j request 43/50 was 11.8149s for 35s deadline with response 100
+2024-08-23 19:34:15,746 - INFO - Elapsed time for task_e request 43/50 was 11.9146s for 35s deadline with response 100
+2024-08-23 19:34:16,739 - INFO - task_l request 43/50
+2024-08-23 19:34:23,154 - INFO - Elapsed time for task_k request 43/50 was 12.0176s for 35s deadline with response 100
+2024-08-23 19:34:23,508 - INFO - task_d request 44/50
+2024-08-23 19:34:28,654 - INFO - Elapsed time for task_l request 43/50 was 11.9149s for 35s deadline with response 100
+2024-08-23 19:34:35,322 - INFO - Elapsed time for task_d request 44/50 was 11.8146s for 35s deadline with response 100
+2024-08-23 19:34:36,812 - INFO - task_f request 44/50
+2024-08-23 19:34:48,627 - INFO - Elapsed time for task_f request 44/50 was 11.8146s for 35s deadline with response 100
+2024-08-23 19:34:48,745 - INFO - task_j request 44/50
+2024-08-23 19:34:50,747 - INFO - task_e request 44/50
+2024-08-23 19:34:58,155 - INFO - task_k request 44/50
+2024-08-23 19:35:00,766 - INFO - Elapsed time for task_j request 44/50 was 12.0213s for 35s deadline with response 100
+2024-08-23 19:35:02,668 - INFO - Elapsed time for task_e request 44/50 was 11.9208s for 35s deadline with response 100
+2024-08-23 19:35:03,655 - INFO - task_l request 44/50
+2024-08-23 19:35:10,323 - INFO - task_d request 45/50
+2024-08-23 19:35:10,374 - INFO - Elapsed time for task_k request 44/50 was 12.2190s for 35s deadline with response 100
+2024-08-23 19:35:16,270 - INFO - Elapsed time for task_l request 44/50 was 12.6148s for 35s deadline with response 100
+2024-08-23 19:35:22,343 - INFO - Elapsed time for task_d request 45/50 was 12.0187s for 35s deadline with response 100
+2024-08-23 19:35:23,628 - INFO - task_f request 45/50
+2024-08-23 19:35:35,543 - INFO - Elapsed time for task_f request 45/50 was 11.9153s for 35s deadline with response 100
+2024-08-23 19:35:35,767 - INFO - task_j request 45/50
+2024-08-23 19:35:37,669 - INFO - task_e request 45/50
+2024-08-23 19:35:45,376 - INFO - task_k request 45/50
+2024-08-23 19:35:47,783 - INFO - Elapsed time for task_j request 45/50 was 12.0155s for 35s deadline with response 100
+2024-08-23 19:35:49,684 - INFO - Elapsed time for task_e request 45/50 was 12.0154s for 35s deadline with response 100
+2024-08-23 19:35:51,271 - INFO - task_l request 45/50
+2024-08-23 19:35:57,191 - INFO - Elapsed time for task_k request 45/50 was 11.8149s for 35s deadline with response 100
+2024-08-23 19:35:57,343 - INFO - task_d request 46/50
+2024-08-23 19:36:03,286 - INFO - Elapsed time for task_l request 45/50 was 12.0152s for 35s deadline with response 100
+2024-08-23 19:36:09,258 - INFO - Elapsed time for task_d request 46/50 was 11.9149s for 35s deadline with response 100
+2024-08-23 19:36:10,544 - INFO - task_f request 46/50
+2024-08-23 19:36:22,358 - INFO - Elapsed time for task_f request 46/50 was 11.8143s for 35s deadline with response 100
+2024-08-23 19:36:22,783 - INFO - task_j request 46/50
+2024-08-23 19:36:24,685 - INFO - task_e request 46/50
+2024-08-23 19:36:32,191 - INFO - task_k request 46/50
+2024-08-23 19:36:34,599 - INFO - Elapsed time for task_j request 46/50 was 11.8148s for 35s deadline with response 100
+2024-08-23 19:36:36,599 - INFO - Elapsed time for task_e request 46/50 was 11.9143s for 35s deadline with response 100
+2024-08-23 19:36:38,287 - INFO - task_l request 46/50
+2024-08-23 19:36:44,205 - INFO - Elapsed time for task_k request 46/50 was 12.0140s for 35s deadline with response 100
+2024-08-23 19:36:44,259 - INFO - task_d request 47/50
+2024-08-23 19:36:50,202 - INFO - Elapsed time for task_l request 46/50 was 11.9150s for 35s deadline with response 100
+2024-08-23 19:36:56,074 - INFO - Elapsed time for task_d request 47/50 was 11.8151s for 35s deadline with response 100
+2024-08-23 19:36:57,359 - INFO - task_f request 47/50
+2024-08-23 19:37:09,175 - INFO - Elapsed time for task_f request 47/50 was 11.8156s for 35s deadline with response 100
+2024-08-23 19:37:09,599 - INFO - task_j request 47/50
+2024-08-23 19:37:11,600 - INFO - task_e request 47/50
+2024-08-23 19:37:19,206 - INFO - task_k request 47/50
+2024-08-23 19:37:21,513 - INFO - Elapsed time for task_j request 47/50 was 11.9133s for 35s deadline with response 100
+2024-08-23 19:37:23,514 - INFO - Elapsed time for task_e request 47/50 was 11.9141s for 35s deadline with response 100
+2024-08-23 19:37:25,203 - INFO - task_l request 47/50
+2024-08-23 19:37:31,075 - INFO - task_d request 48/50
+2024-08-23 19:37:31,120 - INFO - Elapsed time for task_k request 47/50 was 11.9136s for 35s deadline with response 100
+2024-08-23 19:37:37,318 - INFO - Elapsed time for task_l request 47/50 was 12.1150s for 35s deadline with response 100
+2024-08-23 19:37:42,991 - INFO - Elapsed time for task_d request 48/50 was 11.9156s for 35s deadline with response 100
+2024-08-23 19:37:44,176 - INFO - task_f request 48/50
+2024-08-23 19:37:56,095 - INFO - Elapsed time for task_f request 48/50 was 11.9196s for 35s deadline with response 100
+2024-08-23 19:37:56,513 - INFO - task_j request 48/50
+2024-08-23 19:37:58,515 - INFO - task_e request 48/50
+2024-08-23 19:38:06,121 - INFO - task_k request 48/50
+2024-08-23 19:38:08,328 - INFO - Elapsed time for task_j request 48/50 was 11.8144s for 35s deadline with response 100
+2024-08-23 19:38:10,433 - INFO - Elapsed time for task_e request 48/50 was 11.9178s for 35s deadline with response 100
+2024-08-23 19:38:12,319 - INFO - task_l request 48/50
+2024-08-23 19:38:17,991 - INFO - task_d request 49/50
+2024-08-23 19:38:18,039 - INFO - Elapsed time for task_k request 48/50 was 11.9184s for 35s deadline with response 100
+2024-08-23 19:38:24,234 - INFO - Elapsed time for task_l request 48/50 was 11.9148s for 35s deadline with response 100
+2024-08-23 19:38:29,813 - INFO - Elapsed time for task_d request 49/50 was 11.8209s for 35s deadline with response 100
+2024-08-23 19:38:31,096 - INFO - task_f request 49/50
+2024-08-23 19:38:42,913 - INFO - Elapsed time for task_f request 49/50 was 11.8169s for 35s deadline with response 100
+2024-08-23 19:38:43,328 - INFO - task_j request 49/50
+2024-08-23 19:38:45,434 - INFO - task_e request 49/50
+2024-08-23 19:38:53,040 - INFO - task_k request 49/50
+2024-08-23 19:38:55,144 - INFO - Elapsed time for task_j request 49/50 was 11.8155s for 35s deadline with response 100
+2024-08-23 19:38:57,347 - INFO - Elapsed time for task_e request 49/50 was 11.9136s for 35s deadline with response 100
+2024-08-23 19:38:59,234 - INFO - task_l request 49/50
+2024-08-23 19:39:04,814 - INFO - task_d request 50/50
+2024-08-23 19:39:04,954 - INFO - Elapsed time for task_k request 49/50 was 11.9144s for 35s deadline with response 100
+2024-08-23 19:39:11,150 - INFO - Elapsed time for task_l request 49/50 was 11.9152s for 35s deadline with response 100
+2024-08-23 19:39:16,828 - INFO - Elapsed time for task_d request 50/50 was 12.0143s for 35s deadline with response 100
+2024-08-23 19:39:17,914 - INFO - task_f request 50/50
+2024-08-23 19:39:29,729 - INFO - Elapsed time for task_f request 50/50 was 11.8148s for 35s deadline with response 100
+2024-08-23 19:39:30,145 - INFO - task_j request 50/50
+2024-08-23 19:39:32,348 - INFO - task_e request 50/50
+2024-08-23 19:39:39,955 - INFO - task_k request 50/50
+2024-08-23 19:39:41,960 - INFO - Elapsed time for task_j request 50/50 was 11.8150s for 35s deadline with response 100
+2024-08-23 19:39:44,263 - INFO - Elapsed time for task_e request 50/50 was 11.9141s for 35s deadline with response 100
+2024-08-23 19:39:46,150 - INFO - task_l request 50/50
+2024-08-23 19:39:51,869 - INFO - Elapsed time for task_k request 50/50 was 11.9133s for 35s deadline with response 100
+2024-08-23 19:39:58,066 - INFO - Elapsed time for task_l request 50/50 was 11.9152s for 35s deadline with response 100
