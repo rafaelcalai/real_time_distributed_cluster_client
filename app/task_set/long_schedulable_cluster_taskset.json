@@ -1,86 +1,86 @@
 {
     "task_a": {
         "deadline": 15,
-        "execution_time": 5,
+        "execution_time": 4,
         "period": 15,
-        "repeat": 100,
-        "image":"wait_for_value:1.1.0"
+        "repeat": 5760,
+        "image": "wait_for_value:1.1.0"
     },
     "task_b": {
         "deadline": 15,
-        "execution_time": 5,
+        "execution_time": 4,
         "period": 15,
-        "repeat": 100,
-        "image":"wait_for_value:1.1.0"
+        "repeat": 5760,
+        "image": "wait_for_value:1.1.0"
     },
     "task_c": {
         "deadline": 15,
-        "execution_time": 5,
+        "execution_time": 4,
         "period": 15,
-        "repeat": 100,
-        "image":"wait_for_value:1.1.0"
+        "repeat": 5760,
+        "image": "wait_for_value:1.1.0"
     },
     "task_d": {
-        "deadline": 35,
+        "deadline": 40,
         "execution_time": 10,
-        "period": 35,
-        "repeat": 100,
-        "image":"wait_for_value:1.1.0"
+        "period": 40,
+        "repeat": 2160,
+        "image": "wait_for_value:1.1.0"
     },
     "task_e": {
-        "deadline": 35,
+        "deadline": 40,
         "execution_time": 10,
-        "period": 35,
-        "repeat": 100,
-        "image":"wait_for_value:1.1.0"
+        "period": 40,
+        "repeat": 2160,
+        "image": "wait_for_value:1.1.0"
     },
     "task_f": {
-        "deadline": 35,
+        "deadline": 40,
         "execution_time": 10,
-        "period": 35,
-        "repeat": 100,
-        "image":"wait_for_value:1.1.0"
+        "period": 40,
+        "repeat": 2160,
+        "image": "wait_for_value:1.1.0"
     },
     "task_g": {
         "deadline": 15,
-        "execution_time": 5,
+        "execution_time": 4,
         "period": 15,
-        "repeat": 100,
-        "image":"wait_for_value:1.1.0"
+        "repeat": 5760,
+        "image": "wait_for_value:1.1.0"
     },
     "task_h": {
         "deadline": 15,
-        "execution_time": 5,
+        "execution_time": 4,
         "period": 15,
-        "repeat": 100,
-        "image":"wait_for_value:1.1.0"
+        "repeat": 5760,
+        "image": "wait_for_value:1.1.0"
     },
     "task_i": {
         "deadline": 15,
-        "execution_time": 5,
+        "execution_time": 4,
         "period": 15,
-        "repeat": 100,
-        "image":"wait_for_value:1.1.0"
+        "repeat": 5760,
+        "image": "wait_for_value:1.1.0"
     },
     "task_j": {
-        "deadline": 35,
+        "deadline": 40,
         "execution_time": 10,
-        "period": 35,
-        "repeat": 100,
-        "image":"wait_for_value:1.1.0"
+        "period": 40,
+        "repeat": 2160,
+        "image": "wait_for_value:1.1.0"
     },
     "task_k": {
-        "deadline": 35,
+        "deadline": 40,
         "execution_time": 10,
-        "period": 35,
-        "repeat": 100,
-        "image":"wait_for_value:1.1.0"
+        "period": 40,
+        "repeat": 2160,
+        "image": "wait_for_value:1.1.0"
     },
     "task_l": {
-        "deadline": 35,
+        "deadline": 40,
         "execution_time": 10,
-        "period": 35,
-        "repeat": 100,
-        "image":"wait_for_value:1.1.0"
+        "period": 40,
+        "repeat": 2160,
+        "image": "wait_for_value:1.1.0"
     }
 }

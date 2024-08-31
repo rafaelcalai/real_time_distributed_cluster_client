@@ -91,7 +91,7 @@ def task_connecction(thread, task, task_data):
                 (task, count, repeat, task_data),
             )
             thread.start()
-            thread.join()
+            time.sleep(task_data["period"])
 
     except Exception as e:
         logger.error(f"Fail {task}, error: {str(e)}")
