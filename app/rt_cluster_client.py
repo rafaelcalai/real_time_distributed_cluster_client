@@ -116,8 +116,7 @@ if __name__ == "__main__":
         "--taskset",
         type=str,
         choices=[
-            "first_sched",
-            "second_sched",
+            "stress_test_one_worker",
             "long_schedulable_cluster_taskset",
             "schedulable_cluster_taskset",
             "schedulable_one_worker",

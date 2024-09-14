@@ -1,0 +1,50 @@
+{
+    "task_a": {
+        "deadline": 15,
+        "execution_time": 4,
+        "period": 15,
+        "repeat": 50,
+        "image": "stress-test:1.2.0",
+        "command": "stress_test.py"
+    },
+    "task_b": {
+        "deadline": 15,
+        "execution_time": 4,
+        "period": 15,
+        "repeat": 50,
+        "image": "stress-test:1.2.0",
+        "command": "stress_test.py"
+    },
+    "task_c": {
+        "deadline": 15,
+        "execution_time": 4,
+        "period": 15,
+        "repeat": 50,
+        "image": "stress-test:1.2.0",
+        "command": "stress_test.py"
+    },
+    "task_d": {
+        "deadline": 40,
+        "execution_time": 10,
+        "period": 40,
+        "repeat": 50,
+        "image": "stress-test:1.2.0",
+        "command": "stress_test.py"
+    },
+    "task_e": {
+        "deadline": 40,
+        "execution_time": 10,
+        "period": 40,
+        "repeat": 50,
+        "image": "stress-test:1.2.0",
+        "command": "stress_test.py"
+    },
+    "task_f": {
+        "deadline": 40,
+        "execution_time": 10,
+        "period": 40,
+        "repeat": 50,
+        "image": "stress-test:1.2.0",
+        "command": "stress_test.py"
+    }
+}

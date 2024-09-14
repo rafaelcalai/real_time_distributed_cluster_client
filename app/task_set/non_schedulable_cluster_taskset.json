@@ -4,104 +4,119 @@
         "execution_time": 5,
         "period": 15,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_b": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_c": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_d": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_e": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_f": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_g": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_h": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_i": {
         "deadline": 15,
         "execution_time": 5,
         "period": 15,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_j": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_k": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_l": {
         "deadline": 35,
         "execution_time": 10,
         "period": 35,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_m": {
         "deadline": 20,
         "execution_time": 10,
         "period": 20,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_n": {
         "deadline": 20,
         "execution_time": 10,
         "period": 20,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     },
     "task_o": {
         "deadline": 20,
         "execution_time": 10,
         "period": 20,
         "repeat": 50,
-        "image": "wait_for_value:1.1.0"
+        "image": "wait-for-value:1.1.0",
+        "command": "wait_for_value.py"
     }
 }
